@@ -40,6 +40,16 @@ Ergebnis: sieht aus wie kein anderes Naturprodukt auf dem Markt.
 
 Selbst-edukativ durch **Neugier nach dem Catch** — nicht durch Lernpflicht.
 
+## Handy in der Tasche — Philosophie
+
+Die App soll Menschen **in** die Natur bringen, nicht aus ihr rausreißen. Intensive Nutzung hat drei natürliche Momente:
+
+1. **Planung** — vor dem Spaziergang: Karte, Saison, was fehlt im Dex
+2. **Feld** — Handy in der Tasche, Hintergrundmodus läuft passiv, nur Alarme wenn etwas Neues passiert
+3. **Review** — nach dem Spaziergang: Was habe ich gefangen? Artenkarte aufschlagen, Gesang nochmal hören
+
+Alles andere ist Rauschen. Der Hintergrundmodus ist der Ausdruck dieser Philosophie: die App macht ihre Arbeit, während der Mensch spaziert.
+
 ## Was das NICHT ist
 - Kein wissenschaftliches Datenerfassungstool (≠ eBird)
 - Keine kompetitive Rangliste

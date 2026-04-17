@@ -45,6 +45,26 @@
 
 ---
 
+## J5a: Hintergrundmodus (Spaziergang mit Lausch-Modus)
+**Ziel:** Natur genießen, Handy in der Tasche — trotzdem keinen Catch verpassen.
+
+**Planung (2 min):**
+1. App öffnen, kurz Karte checken — „Hier wurde letzte Woche ein Eisvogel gesehen"
+2. Hintergrundmodus starten → ein Tipp, Handy in die Tasche
+
+**Feld-Phase (30–60 min):**
+3. [5 min] Dezenter Ping — Zilpzalp erstmalig in dieser Session erkannt
+4. Kurzer Blick: „Zilpzalp — schon 3x in dieser Session" → weiter laufen
+5. [20 min] Aufregender Alarm — neue Art im Bird-Dex!
+6. Handy raus: Pirol — erste Sichtung ever! CACHEN → Animation → weiter
+
+**Review (Zuhause):**
+7. Session beenden → Zusammenfassung: „Heute 8 Arten gehört, 1 neue Art: Pirol"
+8. Pirol-Artenkarte öffnen — Illustration, Fun Facts, Gesang nochmal hören
+9. Catches auf Karte ansehen, Freunden zeigen
+
+---
+
 ## J5: Soziale Vernetzung
 1. Ben findet Mia → Freundschaftsanfrage → angenommen
 2. Feed zeigt Bens Catches

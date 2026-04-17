@@ -78,6 +78,16 @@ MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht block
 | Standorterlaubnis mit klarem Mehrwert | MVP |
 | Benachrichtigungserlaubnis nach erstem Catch | MVP |
 
+## Hintergrundmodus / Lausch-Modus (Name TBD)
+| Feature | Prio | Anmerkung |
+|---|---|---|
+| Session starten + Handy weglegen | V1 | Ein Tipp — dann Tasche |
+| Kontinuierliche Tonanalyse im Hintergrund | V1 | Benötigt Background-Audio-Permission |
+| Dezenter Ping: Art erstmalig in dieser Session gehört | V1 | Kurzer Blick reicht — kein Unterbrechen nötig |
+| Aufregender Alarm: komplett neue Art (nicht im Bird-Dex) | V1 | Das ist ein Ereignis — Handy raus |
+| Session-Zusammenfassung nach dem Spaziergang | V1 | „Heute gehört: 7 Arten, 2 neu gecacht" — Einstieg in Review |
+| Auto-Catch für Hintergrund-Erkennungen | Vielleicht | Alternativ: nur Alert, manuell bestätigen |
+
 ## Ästhetik & Haptik
 | Feature | Prio |
 |---|---|
