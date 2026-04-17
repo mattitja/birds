@@ -16,7 +16,9 @@
 
 **Ihr Hook:** "Warte, dieser Vogelgesang den ich jeden Morgen höre — das ist ein Rotkehlchen?! Den will ich cachen."
 
-**Was sie zum Wiederkommen bringt:** Ihre Freunde cachen auch Vögel. Eine süße Sammlung wächst. Sie kann auf der Karte sehen, dass jemand anderes einen Eisvogel 500m von ihrem Haus entfernt gesehen hat.
+**Was sie zum Wiederkommen bringt:** Ihre Freunde cachen auch Vögel. Eine wachsende Sammlung mit wunderschönen Illustrationen. Sie kann auf der Karte sehen, dass jemand anderes einen Eisvogel 500m von ihrem Haus entfernt gesehen hat. Und nach dem ersten Catch liest sie die Artenkarte — nicht weil sie muss, sondern weil sie neugierig ist.
+
+**Ästhetik ist ihr Einstieg:** Mia lädt keine App herunter, die aussieht wie eine Excel-Tabelle. Die App muss beim ersten Öffnen schön sein — so schön, dass sie einen Screenshot macht.
 
 ---
 
@@ -35,7 +37,7 @@
 
 **Sein Hook:** Eine Live-Karte, auf der er sehen kann, was andere cachen und eigene seltene Funde beitragen kann — und vielleicht Mia als Mentor begleiten.
 
-**Was ihn zum Wiederkommen bringt:** Seine Catches haben Gewicht. Er sieht, dass seine Daten wirklich genutzt werden. Anerkennung ohne Wettbewerb.
+**Was ihn zum Wiederkommen bringt:** Seine Catches haben Gewicht. Er sieht, dass seine Daten wirklich genutzt werden. Anerkennung ohne Wettbewerb. Und der Bird-Dex hat genug Tiefe, dass er nach Jahren noch nicht "fertig" ist — Seltenheiten, Unterarten, saisonale Raritäten halten ihn beschäftigt.
 
 ---
 

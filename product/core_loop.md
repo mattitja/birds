@@ -24,10 +24,12 @@ Freund-Benachrichtigung / Karten-Update → Freund öffnet App
 
 ## Der Meta-Loop (langfristige Bindung)
 
-- **Sammlung wächst** → mehr Arten = vollständigeres Pokédex-Gefühl
+- **Bird-Dex füllt sich** → von Silhouette zur aufgedeckten Artenkarte — jeder Catch ist ein Fortschritt im Dex
+- **Tiefe nach dem Catch** → Mia cached ein Rotkehlchen, öffnet die Artenkarte, liest 3 Fun Facts, hört den Gesang nochmal — Lernen passiert beiläufig
+- **Starter → Fortgeschrittene → Seltenheiten** → natürliche Progression: erst häufige Arten, dann Lebensraum-Spezialisten, dann echte Raritäten
 - **Streak-Mechanik** → mindestens einen Vogel pro Woche cachen, um den Streak zu halten
 - **Karte füllt sich** → zu sehen wie "deine Stadt" über die Zeit reicher wird ist befriedigend
-- **Jahreszeiten ändern sich** → Zugvögel tauchen auf und verschwinden wieder, erzeugen FOMO-basierte Motivation
+- **Jahreszeiten ändern sich** → Zugvögel tauchen auf und verschwinden, erzeugen FOMO-basierte Motivation ("Mauersegler sind nur 4 Monate da")
 - **Freunde machen Fortschritt** → wenn ein Freund eine neue Art cachet, motiviert es dich, sie auch zu cachen
 
 ## Der soziale Layer
@@ -44,6 +46,10 @@ Freund-Benachrichtigung / Karten-Update → Freund öffnet App
 - Saisonal: "Mauersegler sind in Hamburg angekommen — geh einen cachen!"
 - Freundesaktivität: "Ben hat einen seltenen Buntspecht in der Nähe des Stadtparks gecacht"
 
-## Wichtigstes Design-Prinzip
+## Wichtigste Design-Prinzipien
 
-**Der Catch muss sich gut anfühlen.** Die Animation, der Sound, das Feedback im Moment des Cachens ist der wichtigste UX-Moment in der App. Hier zahlt sich die Pokémon-Parallele aus — Cachen soll sich wie ein Ereignis anfühlen, nicht wie eine Formulareingabe.
+**Der Catch muss sich gut anfühlen.** Die Animation, der Sound, das haptische Feedback im Moment des Cachens ist der wichtigste UX-Moment in der App. Hier zahlt sich die Pokémon-Parallele aus — Cachen soll sich wie ein Ereignis anfühlen, nicht wie eine Formulareingabe.
+
+**Die App muss schön sein.** Nicht "schön für eine Natur-App" — einfach schön. Hochwertige Vogel-Illustrationen (Aquarell/Gouache), warme Farben, sorgfältige Animationen. Wenn Mia die App öffnet, soll sie einen Screenshot machen wollen.
+
+**Tiefe ist optional, aber immer da.** Jede Artenkarte hat eine Oberfläche (Name, Foto, ein Satz) und eine Tiefe (Verhalten, Nahrung, Zugwege, Verwechslungsarten, Gesangsbeschreibung). Wer taucht, findet mehr. Wer nicht taucht, verpasst nichts.

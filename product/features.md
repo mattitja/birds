@@ -27,15 +27,23 @@ Prioritätsstufen:
 | Eigenen Catch bearbeiten / löschen | V1 | |
 | Private Catches | Später | Standard ist öffentlich/Freunde |
 
-## Sammlung ("Pokédex")
+## Bird-Dex
+
+Der Bird-Dex ist das Herzstück der App — nicht nur eine Artenliste, sondern das Sammlungsobjekt, für das man immer wieder rausgeht.
 
 | Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Persönliche Vogelsammlung | MVP | Alle gecachten Arten mit Anzahl und Datum des ersten Catchs |
-| Arten-Detailseite | MVP | Foto, Beschreibung, Lebensraum, Gesang, Fun Facts |
-| "Neue Art"-Hervorhebung | MVP | Erstmaliges Cachen einer Art wird besonders hervorgehoben |
-| Catch-Verlauf pro Art | V1 | Wann/wo man sie gesehen hat |
-| Saisonale Verfügbarkeitsanzeige | V1 | "Normalerweise hier März–September" |
+| Vollständiger regionaler Bird-Dex | MVP | Alle ~550 deutschen Brutvogelarten + häufige Durchzügler als Silhouetten sichtbar |
+| 3 Starter-Vögel beim Onboarding | MVP | App wählt 3 häufige Arten in der Nähe vor — erst nach deren Catch öffnet sich der volle Dex |
+| Artenkarte: Oberfläche | MVP | Illustration, Name, 1-Satz-Beschreibung, Seltenheitsindikator |
+| Artenkarte: Tiefe | V1 | Gesang (Player), Lebensraum, Nahrung, Zugverhalten, Verwechslungsarten, Fun Facts |
+| Silhouette → aufgedeckt beim ersten Catch | MVP | Das Aufdecken ist ein Belohnungsmoment |
+| Arten nach Familie / Lebensraum / Seltenheit filtern | V1 | Für Ben: gezielt suchen; für Mia: stöbern |
+| Fortschrittsanzeige im Dex | V1 | "Du hast 34 von 550 Arten gecacht" |
+| Saisonale Verfügbarkeit pro Art | V1 | "Normalerweise März–September in Hamburg" |
+| Catch-Verlauf pro Art | V1 | Wann/wo ich sie gecacht habe |
+| "Neue Art"-Hervorhebung beim Catch | MVP | Erste Catch einer Art = besonderes Ereignis |
+| Illustrationen: hochwertiger Aquarell/Gouache-Stil | MVP | Kernästhetik — kein Stockfoto, kein Cartoon |
 
 ## Karte
 
@@ -81,6 +89,18 @@ Prioritätsstufen:
 | Feature | Priorität | Anmerkungen |
 |---|---|---|
 | Reibungsloser Einstieg | MVP | Social Login (Apple, Google) |
+| 3 Starter-Vögel Auswahl / Präsentation | MVP | Lokal, häufig, cachenswert — macht den Dex sofort greifbar |
 | Tutorial für ersten Catch | MVP | Mia durch ihren ersten Catch führen |
 | Standorterlaubnis mit klarem Mehrwert | MVP | "Wir zeigen dir Vögel in der Nähe" |
 | Benachrichtigungserlaubnis nach erstem Catch | MVP | Nicht vorab abfragen |
+
+## Ästhetik & Haptik
+
+| Feature | Priorität | Anmerkungen |
+|---|---|---|
+| Vogel-Illustrationen (Aquarell/Gouache-Stil) | MVP | Kernidentität — für alle Artkarten, kein Stockfoto |
+| Haptisches Feedback beim Catch | MVP | Vibration + Sound = das Moment fühlt sich physisch an |
+| Catch-Animation ("Aufdecken" der Artenkarte) | MVP | Wie eine Sammelkarte die sich umdreht |
+| Seitenübergangs-Animationen | V1 | Weich, natürlich — kein hartes Schneiden |
+| Sound-Design (UI-Töne) | V1 | Subtile Vogelgeräusche als UI-Feedback |
+| Splash/Ladebildschirm mit Illustration | MVP | Erster Eindruck zählt |

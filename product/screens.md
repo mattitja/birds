@@ -32,18 +32,30 @@ Flow (Screens innerhalb dieses Tabs):
 
 ---
 
-## Tab 3: Sammlung
+## Tab 3: Bird-Dex
 
-**Meine Vögel — der Pokédex.**
+**Der vollständige Vogel-Dex — Sammlungsobjekt und Nachschlagewerk in einem.**
 
-- Raster der gecachten Arten (ausgegraut für noch nicht gecachte, nach Region angezeigt)
-- Sortierung: zuletzt gecacht / alphabetisch / Seltenheit
-- Filter: Familie, Jahreszeit, Seltenheit
-- Art antippen → **Arten-Detailscreen**
-  - Foto, Name, Beschreibung, Gesang-Player
-  - Meine Catches dieser Art (wo/wann)
-  - Community-Catches (wie viele Leute haben sie gecacht, wo)
-  - "Nochmal cachen"-Button
+- Raster aller regionalen Arten
+  - **Gecacht**: volle Illustration, Name sichtbar, Seltenheits-Indikator
+  - **Nicht gecacht**: Silhouette + Fragezeichen (Name versteckt oder sichtbar — zu entscheiden)
+- Fortschrittsbalken oben: "34 / 550 Arten gecacht"
+- Filter / Sortierung: Familie, Lebensraum, Seltenheit, Jahreszeit, "Noch nicht gecacht"
+- Suchleiste
+
+**Arten-Detailscreen** (Tap auf eine Art):
+- Große Illustration (Aquarell/Gouache) — Hauptbild des Screens
+- Oberfläche: Name (DE + wissenschaftlich), 1-Satz-Beschreibung, Seltenheit, typische Jahreszeit
+- Gesang-Player (integriert, ohne App zu verlassen)
+- Tiefe (ausklappbar / scrollbar):
+  - Lebensraum & Verbreitung
+  - Nahrung & Verhalten
+  - Zugverhalten (Standvogel / Zugvogel / Wintergast)
+  - Verwechslungsarten (mit Direktlink zu deren Karte)
+  - Fun Facts
+- Meine Catches dieser Art (wann/wo — kleine Karte)
+- Community: wie viele User haben sie gecacht, Hotspot-Karte
+- "Jetzt cachen"-Button (öffnet Catch-Flow direkt für diese Art)
 
 ---
 
@@ -80,3 +92,12 @@ Screens:
 - Dark-Mode-Unterstützung von Anfang an (draußen in der Dämmerung/Morgengrauen)
 - Große Tipper-Ziele — mit einer Hand im Freien bedient
 - Minimale Texteingabe — tippen > tippen wo immer möglich
+
+## Ästhetik-Richtlinien (für alle Screens)
+
+- **Illustrationen**: Aquarell/Gouache-Stil, warm, detailliert — Artenkarten sind das visuelle Herzstück
+- **Farbpalette**: Naturfarben (Erdtöne, Waldgrün, Himmelblau) kombiniert mit einer lebendigen Akzentfarbe für Interaktionen
+- **Typografie**: Lesbar draußen bei Sonnenlicht, ausreichend Kontrast — keine dünnen Schriften
+- **Animationen**: Jede Interaktion hat Feedback — Catch-Animation ist der Premium-Moment (Aufdecken der Artenkarte wie eine Sammelkarte)
+- **Haptik**: Vibration beim Catch, beim Aufdecken einer neuen Art, beim Badge-Verdienen
+- **Catch-Erfolg-Screen**: Vollbild-Moment — Illustration groß, Konfetti/Partikel, Vogelgeräusch der gecachten Art
