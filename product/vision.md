@@ -2,39 +2,39 @@
 
 ## Problem
 
-Birdwatching is one of the most accessible nature experiences — birds are everywhere. But the entry barrier is high: people can't identify species, get frustrated quickly, and give up before the magic happens. Existing apps are either built for experts (eBird, iNaturalist) or are pure tools without social or motivational layer (Merlin).
+Vogelbeobachtung ist eines der zugänglichsten Naturerlebnisse — Vögel sind überall. Aber die Einstiegshürde ist hoch: Menschen können keine Arten bestimmen, werden schnell frustriert und geben auf, bevor die Magie passiert. Bestehende Apps sind entweder für Experten gebaut (eBird, iNaturalist) oder reine Werkzeuge ohne sozialen oder motivationalen Layer (Merlin).
 
-The result: millions of people walk past birds every day without ever connecting with them.
+Das Ergebnis: Millionen Menschen gehen täglich an Vögeln vorbei, ohne jemals eine Verbindung zu ihnen aufzubauen.
 
-## The Insight
+## Die Erkenntnis
 
-The "hook moment" is identification — the first time someone hears a bird singing and knows its name. That moment creates wonder. Everything after (going outside more, buying binoculars, learning more species) follows naturally — but only if that first moment happens.
+Der "Hook-Moment" ist die Bestimmung — das erste Mal, wenn jemand einen singenden Vogel hört und seinen Namen kennt. Dieser Moment erzeugt Staunen. Alles danach (öfter rausgehen, Fernglas kaufen, mehr Arten lernen) folgt natürlich — aber nur, wenn dieser erste Moment passiert.
 
-**Merlin creates that moment. But then does nothing with it.**
+**Merlin erzeugt diesen Moment. Macht dann aber nichts daraus.**
 
-## Solution
+## Lösung
 
-A mobile app that:
-1. Makes the identification moment effortless and magical
-2. Turns every sighting into a "catch" — rewarding, shareable, permanent
-3. Builds a collaborative community map so birds become a shared discovery
-4. Lowers every possible barrier so the least disciplined person still has fun
+Eine mobile App, die:
+1. Den Bestimmungsmoment mühelos und magisch macht
+2. Jeden Fund in einen "Catch" verwandelt — belohnend, teilbar, dauerhaft
+3. Eine kollaborative Community-Karte aufbaut, sodass Vögel zur gemeinsamen Entdeckung werden
+4. Jede mögliche Hürde senkt, damit auch die disziplinloseste Person noch Spaß hat
 
-## 3-Sentence Pitch
+## 3-Satz-Pitch
 
-> Birds are everywhere, but most people walk right past them. Our app turns birdwatching into a collaborative game — catch birds, build your collection, and together map where the kingfisher hides in Hamburg. No expertise needed: we help you identify what you see or hear, and every catch contributes to a living map others can actually use.
+> Vögel sind überall, aber die meisten Menschen laufen einfach an ihnen vorbei. Unsere App verwandelt Vogelbeobachtung in ein kollaboratives Spiel — fang Vögel, baue deine Sammlung auf und kartiert gemeinsam, wo der Eisvogel in Hamburg versteckt ist. Kein Fachwissen nötig: wir helfen dir zu bestimmen, was du siehst oder hörst, und jeder Catch trägt zu einer lebendigen Karte bei, die andere wirklich nutzen können.
 
-## North Star
+## Leitstern
 
-**Get someone who has never thought about birds to catch their first one within 10 minutes of installing the app — and want to come back the next day.**
+**Jemanden, der noch nie über Vögel nachgedacht hat, dazu bringen, innerhalb von 10 Minuten nach der App-Installation seinen ersten Vogel zu cachen — und am nächsten Tag wiederkommen zu wollen.**
 
-## What this is NOT
+## Was das NICHT ist
 
-- Not a scientific data collection tool (that's eBird)
-- Not a competitive leaderboard (high misuse risk, alienates casual users)
-- Not just an ID tool (that's Merlin)
-- Not Instagram for birds
+- Kein wissenschaftliches Datenerfassungstool (das ist eBird)
+- Keine kompetitive Rangliste (hohes Missbrauchsrisiko, schreckt Casual-User ab)
+- Kein reines Bestimmungstool (das ist Merlin)
+- Kein Instagram für Vögel
 
-## Long-term dream
+## Langfristiger Traum
 
-A real-time, crowd-sourced map of bird activity across cities — so anyone can answer "where can I see a kingfisher in Hamburg today?" — built entirely by people who started knowing nothing about birds.
+Eine Echtzeit-Crowdsourced-Karte der Vogelaktivität in Städten — sodass jeder die Frage beantworten kann: "Wo kann ich heute in Hamburg einen Eisvogel sehen?" — aufgebaut von Menschen, die anfangs nichts über Vögel wussten.

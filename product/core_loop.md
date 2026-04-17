@@ -1,49 +1,49 @@
 # Core Loop
 
-## The Primary Loop (daily engagement)
+## Der primäre Loop (tägliches Engagement)
 
 ```
-Go outside
+Rausgehen
     ↓
-Hear or see a bird
+Vogel hören oder sehen
     ↓
-Open app → identify (sound / photo / manual)
+App öffnen → bestimmen (Ton / Foto / manuell)
     ↓
-"It's a Robin!" → tap CATCH
+"Es ist ein Rotkehlchen!" → CACHEN tippen
     ↓
-Catch logged with location + method + timestamp
+Catch gespeichert mit Standort + Methode + Zeitstempel
     ↓
-Reward moment: animation, catch added to collection, XP/badge
+Belohnungsmoment: Animation, Catch zur Sammlung hinzugefügt, XP/Badge
     ↓
-Catch appears on the community map
+Catch erscheint auf der Community-Karte
     ↓
-Friend notification / map update → friend opens app
+Freund-Benachrichtigung / Karten-Update → Freund öffnet App
     ↓
-(loop restarts)
+(Loop startet neu)
 ```
 
-## The Meta Loop (long-term retention)
+## Der Meta-Loop (langfristige Bindung)
 
-- **Collection grows** → more species = more complete Pokédex feeling
-- **Streak mechanic** → catch at least one bird per week to keep streak
-- **Map fills in** → watching "your city" become richer over time is satisfying
-- **Seasons change** → migratory birds appear and disappear, creating FOMO-based motivation
-- **Friends progress** → seeing a friend catch a new species motivates you to catch it too
+- **Sammlung wächst** → mehr Arten = vollständigeres Pokédex-Gefühl
+- **Streak-Mechanik** → mindestens einen Vogel pro Woche cachen, um den Streak zu halten
+- **Karte füllt sich** → zu sehen wie "deine Stadt" über die Zeit reicher wird ist befriedigend
+- **Jahreszeiten ändern sich** → Zugvögel tauchen auf und verschwinden wieder, erzeugen FOMO-basierte Motivation
+- **Freunde machen Fortschritt** → wenn ein Freund eine neue Art cachet, motiviert es dich, sie auch zu cachen
 
-## The Social Layer
+## Der soziale Layer
 
-- Catches are public by default (can be set to friends-only or private)
-- Friends see each other's catches in a feed and on the map
-- Community "discoveries" — first person to log a species in an area gets a badge
-- No competitive ranking — collaborative milestones instead (e.g. "Hamburg has now logged 80 species this year!")
+- Catches sind standardmäßig öffentlich (können auf Freunde oder privat gesetzt werden)
+- Freunde sehen gegenseitige Catches im Feed und auf der Karte
+- Community-"Entdeckungen" — erste Person, die eine Art in einem Gebiet loggt, bekommt ein Badge
+- Keine kompetitiven Rankings — stattdessen kollaborative Meilensteine (z.B. "Hamburg hat dieses Jahr 80 Arten geloggt!")
 
-## The Re-engagement Loop
+## Der Wiederkehr-Loop
 
-- Push notification: "A kingfisher was spotted 800m from you 2 hours ago"
-- Weekly recap: "You caught 3 new species this week"
-- Seasonal: "Swifts have arrived in Hamburg — go catch one!"
-- Friend activity: "Ben caught a rare Great Spotted Woodpecker near Stadtpark"
+- Push-Benachrichtigung: "Ein Eisvogel wurde vor 800m vor 2 Stunden gesehen"
+- Wöchentliche Zusammenfassung: "Du hast diese Woche 3 neue Arten gecacht"
+- Saisonal: "Mauersegler sind in Hamburg angekommen — geh einen cachen!"
+- Freundesaktivität: "Ben hat einen seltenen Buntspecht in der Nähe des Stadtparks gecacht"
 
-## Key Design Principle
+## Wichtigstes Design-Prinzip
 
-**The catch must feel good.** The animation, sound, feedback at the moment of catching is the most important UX moment in the app. This is where the Pokémon parallel pays off — catching should feel like an event, not a form submission.
+**Der Catch muss sich gut anfühlen.** Die Animation, der Sound, das Feedback im Moment des Cachens ist der wichtigste UX-Moment in der App. Hier zahlt sich die Pokémon-Parallele aus — Cachen soll sich wie ein Ereignis anfühlen, nicht wie eine Formulareingabe.

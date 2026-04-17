@@ -1,82 +1,82 @@
 # Screens
 
-Navigation structure: **Bottom Tab Bar** with 4 tabs.
+Navigationsstruktur: **Untere Tab-Leiste** mit 4 Tabs.
 
 ---
 
-## Tab 1: Map
+## Tab 1: Karte
 
-**Primary entry point for exploration.**
+**Haupteinstiegspunkt für die Erkundung.**
 
-- Full-screen map (Mapbox)
-- Catch pins / clusters visible
-- Filter bar: species, time range, friends-only toggle
-- Heatmap toggle
-- Floating "Catch" button (primary CTA, always visible)
-- Tap pin → mini card (species, user, time, distance)
-- Mini card → expands to Catch Detail
-
----
-
-## Tab 2: Catch (Action)
-
-**The main action — triggered from FAB or tab.**
-
-Flow (screens within this tab):
-1. **Catch Method Selection** — Heard it? Saw it? Want to use sound ID or photo ID?
-2. **Sound ID Screen** — Live listening, waveform animation, species result
-3. **Photo ID Screen** — Camera viewfinder, capture, species result
-4. **Manual Search Screen** — Search bar, species list
-5. **Catch Confirmation Screen** — Species confirmed, select method, optional note/photo, location preview
-6. **Catch Success Screen** — Animation + reward + "Share" option
+- Vollbild-Karte (Mapbox)
+- Catch-Pins / Cluster sichtbar
+- Filterleiste: Art, Zeitraum, Nur-Freunde-Toggle
+- Heatmap-Toggle
+- Schwebender "Cachen"-Button (primärer CTA, immer sichtbar)
+- Pin antippen → Mini-Karte (Art, Nutzer, Zeit, Entfernung)
+- Mini-Karte → klappt zu Catch-Detail aus
 
 ---
 
-## Tab 3: Collection
+## Tab 2: Cachen (Aktion)
 
-**My birds — the Pokédex.**
+**Die Hauptaktion — ausgelöst vom FAB oder Tab.**
 
-- Grid of caught species (greyed out for not-yet-caught, shown in region)
-- Sort: recently caught / alphabetical / rarity
-- Filter: family, season, rarity
-- Tap species → **Species Detail Screen**
-  - Photo, name, description, song player
-  - My catches of this species (where/when)
-  - Community catches (how many people caught it, where)
-  - "Catch again" button
+Flow (Screens innerhalb dieses Tabs):
+1. **Catch-Methoden-Auswahl** — Gehört? Gesehen? Ton-ID oder Foto-ID nutzen?
+2. **Ton-ID-Screen** — Live-Zuhören, Wellenform-Animation, Artenergebnis
+3. **Foto-ID-Screen** — Kamera-Sucher, Aufnahme, Artenergebnis
+4. **Manuelle Suche** — Suchleiste, Artenliste
+5. **Catch-Bestätigungsscreen** — Art bestätigt, Methode wählen, optionale Notiz/Foto, Standortvorschau
+6. **Catch-Erfolgsscreen** — Animation + Belohnung + "Teilen"-Option
 
 ---
 
-## Tab 4: Profile & Social
+## Tab 3: Sammlung
 
-**Me + my friends.**
+**Meine Vögel — der Pokédex.**
+
+- Raster der gecachten Arten (ausgegraut für noch nicht gecachte, nach Region angezeigt)
+- Sortierung: zuletzt gecacht / alphabetisch / Seltenheit
+- Filter: Familie, Jahreszeit, Seltenheit
+- Art antippen → **Arten-Detailscreen**
+  - Foto, Name, Beschreibung, Gesang-Player
+  - Meine Catches dieser Art (wo/wann)
+  - Community-Catches (wie viele Leute haben sie gecacht, wo)
+  - "Nochmal cachen"-Button
+
+---
+
+## Tab 4: Profil & Soziales
+
+**Ich + meine Freunde.**
 
 Screens:
-- **My Profile** — avatar, username, level/XP bar, badges, stats (species count, catch count, streak)
-- **My Badges** — grid of earned and locked badges
-- **Activity Feed** — friend catches chronologically
-- **Friends List** — with their recent activity
-- **Friend Profile** — their public collection + recent catches
-- **Settings** — notification prefs, privacy, account
+- **Mein Profil** — Avatar, Benutzername, Level/XP-Leiste, Badges, Statistiken (Artenanzahl, Catch-Anzahl, Streak)
+- **Meine Badges** — Raster der verdienten und gesperrten Badges
+- **Aktivitätsfeed** — Freundes-Catches chronologisch
+- **Freundesliste** — mit deren jüngster Aktivität
+- **Freundesprofil** — deren öffentliche Sammlung + jüngste Catches
+- **Einstellungen** — Benachrichtigungspräferenzen, Datenschutz, Account
 
 ---
 
-## Global / Overlay Screens
+## Globale / Overlay-Screens
 
-| Screen | Trigger |
+| Screen | Auslöser |
 |---|---|
-| Onboarding (3 slides) | First launch |
-| First Catch Tutorial | After first sound ID result |
-| Catch Detail (modal) | Tap any catch pin on map |
-| Rare Bird Alert (push) | Notification tap → map with highlighted pin |
-| Species Quick Card (sheet) | Tap species anywhere in app |
+| Onboarding (3 Folien) | Erster Start |
+| Tutorial erster Catch | Nach erstem Ton-ID-Ergebnis |
+| Catch-Detail (Modal) | Catch-Pin auf Karte antippen |
+| Seltener-Vogel-Alarm (Push) | Benachrichtigung antippen → Karte mit hervorgehobenem Pin |
+| Arten-Schnellkarte (Sheet) | Art irgendwo in der App antippen |
 
 ---
 
-## Design Notes
+## Design-Hinweise
 
-- Bottom tab bar always visible (except during sound/photo ID — full screen)
-- Catch button (mic icon) could be persistent FAB over the map tab
-- Dark mode support from day 1 (outdoors at dusk/dawn)
-- Large tap targets — used with one hand outdoors
-- Minimal text input — tap > type wherever possible
+- Untere Tab-Leiste immer sichtbar (außer während Ton/Foto-ID — Vollbild)
+- Cachen-Button (Mikrofon-Icon) könnte persistenter FAB über dem Karten-Tab sein
+- Dark-Mode-Unterstützung von Anfang an (draußen in der Dämmerung/Morgengrauen)
+- Große Tipper-Ziele — mit einer Hand im Freien bedient
+- Minimale Texteingabe — tippen > tippen wo immer möglich

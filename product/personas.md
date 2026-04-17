@@ -1,44 +1,44 @@
 # Personas
 
-## Primary: "Casual Mia"
+## Primär: "Casual Mia"
 
-**The person we must win.**
+**Die Person, die wir gewinnen müssen.**
 
-- Age: 25–35
-- Goes for walks, jogs in the park, enjoys being outside
-- Has never consciously thought about birds
-- Attention span: short. Needs a reward within minutes.
-- Would download the app if a friend shows it to her or she sees it on TikTok
-- Will delete the app if it asks too much of her upfront
-- Does NOT want to feel stupid or like she needs to study
+- Alter: 25–35
+- Geht gerne spazieren, joggt im Park, findet Natur schön
+- Hat noch nie bewusst über Vögel nachgedacht
+- Aufmerksamkeitsspanne: kurz. Braucht eine Belohnung innerhalb von Minuten.
+- Würde die App herunterladen, wenn eine Freundin sie zeigt oder sie sie auf TikTok sieht
+- Löscht die App, wenn sie ihr zu viel abverlangt
+- Will sich NICHT dumm fühlen oder das Gefühl haben, lernen zu müssen
 
-**Her frustration with existing apps:** Too much information, too many fields, feels like homework.
+**Ihre Frustration mit bestehenden Apps:** Zu viele Informationen, zu viele Felder, fühlt sich wie Hausaufgaben an.
 
-**Her hook:** "Wait, that birdsong I've been hearing every morning — that's a robin?! I want to catch it."
+**Ihr Hook:** "Warte, dieser Vogelgesang den ich jeden Morgen höre — das ist ein Rotkehlchen?! Den will ich cachen."
 
-**What keeps her coming back:** Her friends are also catching birds. There's a cute collection growing. She can see on the map that someone else spotted a kingfisher 500m from her house.
-
----
-
-## Secondary: "Birder Ben"
-
-**The person who will become our power user and content backbone.**
-
-- Age: 35–55
-- Has binoculars, a field guide, maybe an eBird account
-- Knows 50–100 species, actively seeks rare birds
-- Wants to contribute to something meaningful
-- Frustrated that his knowledge has no social outlet (eBird is sterile)
-- Would love to help beginners, enjoys being the "expert" in a friendly way
-
-**His frustration with existing apps:** Either too casual (nothing for serious birders) or too scientific/dry (eBird, iNaturalist).
-
-**His hook:** A live map where he can see what others are catching and contribute his own rare finds — and maybe mentor Mia.
-
-**What keeps him coming back:** His catches carry weight. He sees his data actually being used. Recognition without competition.
+**Was sie zum Wiederkommen bringt:** Ihre Freunde cachen auch Vögel. Eine süße Sammlung wächst. Sie kann auf der Karte sehen, dass jemand anderes einen Eisvogel 500m von ihrem Haus entfernt gesehen hat.
 
 ---
 
-## Design rule
+## Sekundär: "Birder Ben"
 
-Every feature must pass the "Mia test": would she understand and enjoy this without explanation? If not, it either needs to be simpler, or it should be an optional advanced feature that doesn't clutter her experience.
+**Die Person, die unser Power-User und Inhalts-Rückgrat wird.**
+
+- Alter: 35–55
+- Hat Fernglas, ein Bestimmungsbuch, vielleicht einen eBird-Account
+- Kennt 50–100 Arten, sucht aktiv nach seltenen Vögeln
+- Möchte zu etwas Bedeutungsvollem beitragen
+- Frustriert, dass sein Wissen keinen sozialen Auslass hat (eBird ist steril)
+- Würde Anfänger gerne helfen, genießt es der "Experte" in einem freundlichen Umfeld zu sein
+
+**Seine Frustration mit bestehenden Apps:** Entweder zu casual (nichts für ernsthafte Birder) oder zu wissenschaftlich/trocken (eBird, iNaturalist).
+
+**Sein Hook:** Eine Live-Karte, auf der er sehen kann, was andere cachen und eigene seltene Funde beitragen kann — und vielleicht Mia als Mentor begleiten.
+
+**Was ihn zum Wiederkommen bringt:** Seine Catches haben Gewicht. Er sieht, dass seine Daten wirklich genutzt werden. Anerkennung ohne Wettbewerb.
+
+---
+
+## Design-Regel
+
+Jedes Feature muss den "Mia-Test" bestehen: Würde sie es ohne Erklärung verstehen und genießen? Falls nicht, muss es entweder vereinfacht werden oder als optionales Fortgeschrittenen-Feature ausgelagert werden, das ihre Erfahrung nicht überfrachtet.

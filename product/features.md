@@ -1,86 +1,86 @@
 # Features
 
-Priority levels:
-- **MVP** — required for first testable version
-- **V1** — required for public launch
-- **Later** — important but not blocking
-- **Maybe** — validate with users first
+Prioritätsstufen:
+- **MVP** — für erste testbare Version erforderlich
+- **V1** — für öffentlichen Launch erforderlich
+- **Später** — wichtig, aber nicht blockierend
+- **Vielleicht** — erst mit Nutzern validieren
 
 ---
 
-## Bird Identification
+## Vogelbestimmung
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Manual search by name | MVP | Fallback, always needed |
-| Sound identification (live) | V1 | Core hook — like Merlin. Third-party API (e.g. BirdNET) |
-| Photo identification | V1 | Third-party API (e.g. iNaturalist / BirdNET) |
-| Browse species list | MVP | Filtered by region, season |
+| Manuelle Suche nach Name | MVP | Fallback, immer nötig |
+| Tonbestimmung (live) | V1 | Kern-Hook — wie Merlin. Drittanbieter-API (z.B. BirdNET) |
+| Fotobestimmung | V1 | Drittanbieter-API (z.B. iNaturalist / BirdNET) |
+| Artenliste durchsuchen | MVP | Gefiltert nach Region, Jahreszeit |
 
-## Catching
+## Cachen
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Log a catch (species + location + method) | MVP | Methods: seen with naked eye, binoculars, heard only |
-| Catch confirmation animation / reward | MVP | This is the magic moment — must feel great |
-| Add optional note / photo to catch | V1 | |
-| Edit / delete own catch | V1 | |
-| Private catches | Later | Default is public/friends |
+| Catch loggen (Art + Standort + Methode) | MVP | Methoden: mit bloßem Auge, Fernglas, nur gehört |
+| Catch-Bestätigungsanimation / Belohnung | MVP | Das ist der magische Moment — muss sich toll anfühlen |
+| Optionale Notiz / Foto zum Catch hinzufügen | V1 | |
+| Eigenen Catch bearbeiten / löschen | V1 | |
+| Private Catches | Später | Standard ist öffentlich/Freunde |
 
-## Collection ("Pokédex")
+## Sammlung ("Pokédex")
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Personal bird collection | MVP | All species caught, with count and first-catch date |
-| Species detail page | MVP | Photo, description, habitat, song, fun facts |
-| "New species" highlight | MVP | First time catching a species is special |
-| Catch history per species | V1 | When/where you've seen it |
-| Seasonal availability indicator | V1 | "Usually here March–September" |
+| Persönliche Vogelsammlung | MVP | Alle gecachten Arten mit Anzahl und Datum des ersten Catchs |
+| Arten-Detailseite | MVP | Foto, Beschreibung, Lebensraum, Gesang, Fun Facts |
+| "Neue Art"-Hervorhebung | MVP | Erstmaliges Cachen einer Art wird besonders hervorgehoben |
+| Catch-Verlauf pro Art | V1 | Wann/wo man sie gesehen hat |
+| Saisonale Verfügbarkeitsanzeige | V1 | "Normalerweise hier März–September" |
 
-## Map
+## Karte
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Community map with all public catches | MVP | Pins or clusters by species |
-| Filter by species | MVP | "Show me all kingfisher sightings" |
-| Filter by time (last 7 days, month, year) | V1 | |
-| Heatmap view | V1 | Density of catches per area |
-| My catches on map | MVP | |
-| Friends' catches on map | V1 | |
+| Community-Karte mit allen öffentlichen Catches | MVP | Pins oder Cluster nach Art |
+| Nach Art filtern | MVP | "Zeig mir alle Eisvogel-Sichtungen" |
+| Nach Zeit filtern (letzte 7 Tage, Monat, Jahr) | V1 | |
+| Heatmap-Ansicht | V1 | Dichte der Catches pro Gebiet |
+| Eigene Catches auf Karte | MVP | |
+| Catches von Freunden auf Karte | V1 | |
 
-## Social
+## Soziales
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| User profiles | MVP | Username, avatar, catch count, species count |
-| Follow / friend system | V1 | |
-| Activity feed (friend catches) | V1 | |
-| Community milestones | Later | "Hamburg hit 100 species!" |
-| "First catch in area" badges | Later | Incentivizes exploring new areas |
+| Nutzerprofile | MVP | Benutzername, Avatar, Catch-Anzahl, Arten-Anzahl |
+| Folgen / Freundschaftssystem | V1 | |
+| Aktivitätsfeed (Freundes-Catches) | V1 | |
+| Community-Meilensteine | Später | "Hamburg hat 100 Arten geloggt!" |
+| "Erster Catch im Gebiet"-Badges | Später | Motiviert das Erkunden neuer Gebiete |
 
-## Notifications
+## Benachrichtigungen
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Nearby rare bird alert | V1 | "Kingfisher spotted 500m away" |
-| Friend catch notification | V1 | |
-| Weekly recap | V1 | |
-| Seasonal migration alerts | Later | |
+| Seltener Vogel in der Nähe | V1 | "Eisvogel wurde 500m von dir gesehen" |
+| Freundes-Catch-Benachrichtigung | V1 | |
+| Wöchentliche Zusammenfassung | V1 | |
+| Saisonale Zugvogelwarnungen | Später | |
 
 ## Gamification
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| XP / level system | V1 | Simple, non-competitive |
-| Badges / achievements | V1 | "First catch", "10 species", "Caught in rain" etc. |
-| Catch streak | V1 | Weekly, not daily (not too demanding) |
-| Collaborative city goals | Later | Not personal rankings |
+| XP / Level-System | V1 | Einfach, nicht kompetitiv |
+| Badges / Erfolge | V1 | "Erster Catch", "10 Arten", "Im Regen gecacht" etc. |
+| Catch-Streak | V1 | Wöchentlich, nicht täglich (nicht zu fordernd) |
+| Kollaborative Stadtziele | Später | Keine persönlichen Rankings |
 
 ## Onboarding
 
-| Feature | Priority | Notes |
+| Feature | Priorität | Anmerkungen |
 |---|---|---|
-| Zero-friction signup | MVP | Social login (Apple, Google) |
-| First-catch tutorial | MVP | Walk Mia through her first catch |
-| Location permission request with clear value prop | MVP | "We'll show you birds nearby" |
-| Notification permission after first catch | MVP | Not upfront |
+| Reibungsloser Einstieg | MVP | Social Login (Apple, Google) |
+| Tutorial für ersten Catch | MVP | Mia durch ihren ersten Catch führen |
+| Standorterlaubnis mit klarem Mehrwert | MVP | "Wir zeigen dir Vögel in der Nähe" |
+| Benachrichtigungserlaubnis nach erstem Catch | MVP | Nicht vorab abfragen |

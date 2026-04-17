@@ -1,98 +1,98 @@
 # User Journeys
 
-## Journey 1: First-time User (Mia's Onboarding)
+## Journey 1: Erstnutzer (Mias Onboarding)
 
-**Goal:** First catch within 10 minutes, wants to come back tomorrow.
+**Ziel:** Erster Catch innerhalb von 10 Minuten, will morgen wiederkommen.
 
 ```
-1. Downloads app (saw it on Instagram / friend showed her)
-2. Opens app → beautiful splash screen, tagline "Discover the birds around you"
-3. "Continue with Apple" — one tap signup
-4. Location permission: "To show you birds near you and log where you spot them" → Allow
-5. Brief 3-screen intro (skip available):
-   - "Catch birds you see or hear"
-   - "Build your collection"
-   - "See where others spotted them"
-6. Lands on Map screen — sees pins near her location (catches from other users)
-7. Curiosity: taps a pin → "Robin — caught by Ben, 200m from here, yesterday"
-8. Thinks: "Wait I hear that bird all the time"
-9. Taps microphone button → Sound ID mode activates
-10. App listens → "Robin detected!" with confidence %
-11. Big "CATCH IT" button → taps it
-12. 🎉 Catch animation — "You caught your first Robin!"
-13. Collection screen: Robin added, species card revealed
-14. Notification permission prompt: "Get notified when rare birds are nearby" → Allow
-15. Back to map — her catch now visible as a pin
+1. Lädt App herunter (auf Instagram gesehen / Freundin hat sie gezeigt)
+2. Öffnet App → schöner Splash-Screen, Tagline "Entdecke die Vögel um dich herum"
+3. "Weiter mit Apple" — ein-Tipp-Anmeldung
+4. Standorterlaubnis: "Um dir Vögel in der Nähe zu zeigen und zu loggen wo du sie siehst" → Erlauben
+5. Kurze 3-Screen-Einführung (überspringbar):
+   - "Cache Vögel die du siehst oder hörst"
+   - "Baue deine Sammlung auf"
+   - "Sieh wo andere sie gesichtet haben"
+6. Landet auf Karten-Screen — sieht Pins in ihrer Nähe (Catches anderer Nutzer)
+7. Neugier: tippt auf Pin → "Rotkehlchen — von Ben gecacht, 200m von hier, gestern"
+8. Denkt: "Den Vogel höre ich doch die ganze Zeit"
+9. Tippt Mikrofon-Button → Ton-ID-Modus aktiviert
+10. App hört zu → "Rotkehlchen erkannt!" mit Konfidenz-Prozent
+11. Großer "CACHEN"-Button → tippt drauf
+12. 🎉 Catch-Animation — "Du hast dein erstes Rotkehlchen gecacht!"
+13. Sammlungs-Screen: Rotkehlchen hinzugefügt, Artenkarte aufgedeckt
+14. Benachrichtigungserlaubnis: "Werde benachrichtigt wenn seltene Vögel in der Nähe sind" → Erlauben
+15. Zurück zur Karte — ihr Catch ist jetzt als Pin sichtbar
 ```
 
-**Success:** She shows her flatmate. Downloads happened.
+**Erfolg:** Sie zeigt es ihrer Mitbewohnerin. Downloads passieren.
 
 ---
 
-## Journey 2: Returning User (Daily Loop)
+## Journey 2: Wiederkehrender Nutzer (täglicher Loop)
 
-**Goal:** Check what's happening, maybe catch something new.
-
-```
-1. Opens app from push notification: "A Great Spotted Woodpecker was spotted 400m from you"
-2. Map opens, notification pin highlighted
-3. Sees it was 2 hours ago near the park she runs through
-4. Decides to go look → closes app
-5. [Later] In park, hears unfamiliar drumming sound
-6. Opens sound ID → "Great Spotted Woodpecker — 94% confidence"
-7. Catches it → new species! Special "New Species" animation
-8. Badge unlocked: "Woodpecker Family" (first woodpecker)
-9. Checks feed — friend Anna also caught one last week
-10. Taps Anna's catch → adds comment "Just caught mine too!"
-```
-
----
-
-## Journey 3: Logging a Manual Catch (Birder Ben flow)
-
-**Goal:** Log a rare sighting with full context.
+**Ziel:** Schauen was gerade passiert, vielleicht etwas Neues cachen.
 
 ```
-1. Ben spots a Kingfisher at Alster canal
-2. Opens app → taps "+" (catch button)
-3. Search: "Eisvogel" / "Kingfisher" — finds species
-4. Selects catch method: "Binoculars"
-5. Location auto-set (GPS) — can drag pin to adjust
-6. Optional: adds note "Sat on a branch over the water for 5 minutes"
-7. Optional: attaches photo
-8. Confirms catch → appears on community map
-9. Within an hour: 3 users nearby get notification about the rare sighting
+1. Öffnet App durch Push-Benachrichtigung: "Ein Buntspecht wurde 400m von dir gesehen"
+2. Karte öffnet sich, Benachrichtigungs-Pin hervorgehoben
+3. Sieht: vor 2 Stunden, nahe dem Park durch den sie joggt
+4. Entscheidet sich hinzugehen → schließt App
+5. [Später] Im Park hört sie ein unbekanntes Trommeln
+6. Öffnet Ton-ID → "Buntspecht — 94% Konfidenz"
+7. Cached ihn → neue Art! Spezielle "Neue Art"-Animation
+8. Badge freigeschaltet: "Spechtfamilie" (erster Specht)
+9. Schaut in Feed — Freundin Anna hat letzteWoche auch einen gecacht
+10. Tippt auf Annas Catch → fügt Kommentar hinzu "Hab gerade auch einen erwischt!"
 ```
 
 ---
 
-## Journey 4: Exploring the Map
+## Journey 3: Manuellen Catch loggen (Bens Flow)
 
-**Goal:** Find where to see a specific bird.
+**Ziel:** Seltene Sichtung mit vollem Kontext loggen.
 
 ```
-1. Mia wants to see a Kingfisher (heard about it from Ben)
-2. Opens map → taps search/filter
-3. Selects "Kingfisher" from species filter
-4. Map shows all Kingfisher catches in the last 3 months
-5. Clear hotspot visible: Alster canal + Ohlsdorf cemetery
-6. Taps a cluster → list of catches with dates
-7. Most recent: 3 days ago at Alster canal
-8. Taps "Navigate" → opens in maps app
+1. Ben sieht einen Eisvogel an der Alster
+2. Öffnet App → tippt "+" (Catch-Button)
+3. Suche: "Eisvogel" — findet die Art
+4. Wählt Catch-Methode: "Fernglas"
+5. Standort automatisch gesetzt (GPS) — kann Pin verschieben
+6. Optional: fügt Notiz hinzu "Saß 5 Minuten auf einem Ast über dem Wasser"
+7. Optional: hängt Foto an
+8. Bestätigt Catch → erscheint auf Community-Karte
+9. Innerhalb einer Stunde: 3 Nutzer in der Nähe erhalten Benachrichtigung über die seltene Sichtung
 ```
 
 ---
 
-## Journey 5: Social Connection
+## Journey 4: Karte erkunden
 
-**Goal:** Connect with a friend, share progress.
+**Ziel:** Herausfinden wo man eine bestimmte Vogelart sehen kann.
 
 ```
-1. Ben tells Mia about the app → she's already using it
-2. Ben searches for Mia's username → sends friend request
-3. Mia accepts → Ben appears in her friends list
-4. Feed now shows Ben's catches
-5. Ben catches a rare Hoopoe → Mia gets notification
-6. Mia sees it on the map, comments "LUCKY! I've always wanted to see one"
-7. Ben's catch inspires Mia to explore a new area
+1. Mia möchte einen Eisvogel sehen (hat von Ben davon gehört)
+2. Öffnet Karte → tippt Suche/Filter
+3. Wählt "Eisvogel" aus Artenfilter
+4. Karte zeigt alle Eisvogel-Catches der letzten 3 Monate
+5. Klarer Hotspot sichtbar: Alster + Ohlsdorfer Friedhof
+6. Tippt auf Cluster → Liste von Catches mit Datum
+7. Aktuellster: vor 3 Tagen an der Alster
+8. Tippt "Navigieren" → öffnet in Karten-App
+```
+
+---
+
+## Journey 5: Soziale Vernetzung
+
+**Ziel:** Mit einem Freund verbinden, Fortschritt teilen.
+
+```
+1. Ben erzählt Mia von der App → sie nutzt sie bereits
+2. Ben sucht nach Mias Benutzernamen → sendet Freundschaftsanfrage
+3. Mia nimmt an → Ben erscheint in ihrer Freundesliste
+4. Feed zeigt jetzt Bens Catches
+5. Ben cached einen seltenen Wiedehopf → Mia bekommt Benachrichtigung
+6. Mia sieht ihn auf der Karte, kommentiert "SO EIN GLÜCK! Den wollte ich schon immer sehen"
+7. Bens Catch motiviert Mia, ein neues Gebiet zu erkunden
 ```

@@ -1,102 +1,102 @@
-# Competitor Analysis
+# Wettbewerbsanalyse
 
-> To be filled in collaboratively. Initial notes from founding conversation below.
+> Wird kollaborativ befüllt. Erste Notizen aus dem Gründungsgespräch unten.
 
 ---
 
 ## Merlin Bird ID (Cornell Lab)
 
-**What it does well:**
-- Sound ID is magical — live, accurate, confidence score
-- Large species database
-- Offline support
+**Was gut funktioniert:**
+- Ton-ID ist magisch — live, genau, mit Konfidenz-Prozent
+- Große Artendatenbank
+- Offline-Unterstützung
 
-**What it's missing:**
-- Zero social layer
-- No gamification or progression
-- No community map
-- No "catch" mechanic — passive tool, not active game
-- UI feels utilitarian, not inviting for newcomers
+**Was fehlt:**
+- Kein sozialer Layer
+- Keine Gamification oder Progression
+- Keine Community-Karte
+- Kein "Catch"-Mechanismus — passives Werkzeug, kein aktives Spiel
+- UI wirkt nüchtern, nicht einladend für Einsteiger
 
-**Our edge:** Everything after the ID moment.
+**Unser Vorteil:** Alles nach dem Bestimmungsmoment.
 
 ---
 
 ## eBird (Cornell Lab)
 
-**What it does well:**
-- Gold standard for birding data
-- Hotspot maps are genuinely useful
-- Trusted by serious birders worldwide
+**Was gut funktioniert:**
+- Goldstandard für Vogeldaten
+- Hotspot-Karten sind wirklich nützlich
+- Von ernsthaften Birdern weltweit vertraut
 
-**What it's missing:**
-- Designed for experts, intimidating for beginners
-- No gamification
-- Very data-entry-heavy
-- No social / friend layer
-- UI is 2010
+**Was fehlt:**
+- Für Experten konzipiert, Einsteiger werden abgeschreckt
+- Keine Gamification
+- Sehr dateneingabe-intensiv
+- Kein sozialer / Freundes-Layer
+- UI stammt aus 2010
 
-**Our edge:** Accessible to Mia. Fun for Ben too.
+**Unser Vorteil:** Zugänglich für Mia. Trotzdem spaßig für Ben.
 
 ---
 
 ## iNaturalist
 
-**What it does well:**
-- AI photo identification
-- Strong community / scientific credibility
-- Cross-species (not just birds)
+**Was gut funktioniert:**
+- KI-Fotobestimmung
+- Starke Community / wissenschaftliche Glaubwürdigkeit
+- Artenübergreifend (nicht nur Vögel)
 
-**What it's missing:**
-- Not focused on birds specifically
-- No gamification
-- Social layer is minimal
-- Not mobile-first in UX feel
+**Was fehlt:**
+- Kein spezifischer Fokus auf Vögel
+- Keine Gamification
+- Sozialer Layer ist minimal
+- Kein mobile-first UX-Gefühl
 
-**Our edge:** Bird-specific depth + Pokemon-like engagement loop.
+**Unser Vorteil:** Vogelspezifische Tiefe + Pokémon-ähnlicher Engagement-Loop.
 
 ---
 
-## Pokemon GO
+## Pokémon GO
 
-**What it does well:**
-- Masterclass in the catch mechanic
-- Location-based exploration loop
-- Social without being competitive
-- Onboarding is near-perfect
+**Was gut funktioniert:**
+- Meisterkurs im Catch-Mechanismus
+- Standortbasierter Erkundungs-Loop
+- Sozial ohne kompetitiv zu sein
+- Onboarding ist nahezu perfekt
 
-**What it's missing:**
-- Not real nature
-- No educational value
-- Virtual creatures
+**Was fehlt:**
+- Kein echter Naturwert
+- Kein Bildungswert
+- Virtuelle Kreaturen
 
-**Our edge:** Same engagement loop, real world value.
+**Unser Vorteil:** Gleicher Engagement-Loop, echter Mehrwert für die Natur.
 
 ---
 
 ## NaturaList / Observation.org
 
-- More scientific focus
-- Decent maps but no game layer
-- Niche community
+- Eher wissenschaftlicher Fokus
+- Anständige Karten aber kein Spiel-Layer
+- Nischen-Community
 
 ---
 
-## Summary Gap
+## Zusammenfassung der Lücke
 
-No app currently combines:
-1. Low-barrier identification (Merlin's magic)
-2. Rewarding catch mechanic (Pokemon's dopamine)
-3. Collaborative community map (eBird's data value)
-4. Social layer for friends
+Keine App kombiniert aktuell:
+1. Niedrigschwellige Bestimmung (Merlins Magie)
+2. Belohnenden Catch-Mechanismus (Pokémons Dopamin)
+3. Kollaborative Community-Karte (eBirds Datenwert)
+4. Sozialer Layer für Freunde
 
-**That's our space.**
+**Das ist unser Raum.**
 
 ---
 
-## To Research
+## Noch zu recherchieren
 
-- [ ] Actual user reviews of Merlin (App Store) — what do beginners say?
-- [ ] eBird user forums — what do power users wish existed?
-- [ ] Pokemon GO retention stats — what drives long-term play?
-- [ ] Bird population trends in Europe — seasonal content calendar opportunity?
+- [ ] Tatsächliche Nutzerbewertungen von Merlin (App Store) — was sagen Einsteiger?
+- [ ] eBird-Nutzerforen — was wünschen sich Power-User?
+- [ ] Pokémon GO Retentionszahlen — was treibt langfristiges Spielen an?
+- [ ] Vogelpopulationstrends in Europa — saisonaler Inhaltskalender als Chance?
