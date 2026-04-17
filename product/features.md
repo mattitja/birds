@@ -1,106 +1,89 @@
 # Features
 
-Prioritätsstufen:
-- **MVP** — für erste testbare Version erforderlich
-- **V1** — für öffentlichen Launch erforderlich
-- **Später** — wichtig, aber nicht blockierend
-- **Vielleicht** — erst mit Nutzern validieren
-
----
+MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht blockierend | Vielleicht = erst validieren
 
 ## Vogelbestimmung
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Manuelle Suche nach Name | MVP | Fallback, immer nötig |
-| Tonbestimmung (live) | V1 | Kern-Hook — wie Merlin. Drittanbieter-API (z.B. BirdNET) |
-| Fotobestimmung | V1 | Drittanbieter-API (z.B. iNaturalist / BirdNET) |
-| Artenliste durchsuchen | MVP | Gefiltert nach Region, Jahreszeit |
+| Feature | Prio |
+|---|---|
+| Manuelle Suche nach Name | MVP |
+| Artenliste durchsuchen (Region, Jahreszeit) | MVP |
+| Tonbestimmung live (BirdNET o.ä.) | V1 |
+| Fotobestimmung (iNaturalist / BirdNET API) | V1 |
 
 ## Cachen
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Catch loggen (Art + Standort + Methode) | MVP | Methoden: mit bloßem Auge, Fernglas, nur gehört |
-| Catch-Bestätigungsanimation / Belohnung | MVP | Das ist der magische Moment — muss sich toll anfühlen |
-| Optionale Notiz / Foto zum Catch hinzufügen | V1 | |
-| Eigenen Catch bearbeiten / löschen | V1 | |
-| Private Catches | Später | Standard ist öffentlich/Freunde |
+| Feature | Prio |
+|---|---|
+| Catch loggen (Art + Standort + Methode) | MVP |
+| Catch-Bestätigungsanimation / Belohnung | MVP |
+| Optionale Notiz / Foto zum Catch | V1 |
+| Eigenen Catch bearbeiten / löschen | V1 |
+| Private Catches | Später |
 
 ## Bird-Dex
-
-Der Bird-Dex ist das Herzstück der App — nicht nur eine Artenliste, sondern das Sammlungsobjekt, für das man immer wieder rausgeht.
-
-| Feature | Priorität | Anmerkungen |
+| Feature | Prio | Anmerkung |
 |---|---|---|
-| Vollständiger regionaler Bird-Dex | MVP | Alle ~550 deutschen Brutvogelarten + häufige Durchzügler als Silhouetten sichtbar |
-| 3 Starter-Vögel beim Onboarding | MVP | App wählt 3 häufige Arten in der Nähe vor — erst nach deren Catch öffnet sich der volle Dex |
-| Artenkarte: Oberfläche | MVP | Illustration, Name, 1-Satz-Beschreibung, Seltenheitsindikator |
-| Artenkarte: Tiefe | V1 | Gesang (Player), Lebensraum, Nahrung, Zugverhalten, Verwechslungsarten, Fun Facts |
-| Silhouette → aufgedeckt beim ersten Catch | MVP | Das Aufdecken ist ein Belohnungsmoment |
-| Arten nach Familie / Lebensraum / Seltenheit filtern | V1 | Für Ben: gezielt suchen; für Mia: stöbern |
-| Fortschrittsanzeige im Dex | V1 | "Du hast 34 von 550 Arten gecacht" |
-| Saisonale Verfügbarkeit pro Art | V1 | "Normalerweise März–September in Hamburg" |
-| Catch-Verlauf pro Art | V1 | Wann/wo ich sie gecacht habe |
-| "Neue Art"-Hervorhebung beim Catch | MVP | Erste Catch einer Art = besonderes Ereignis |
-| Illustrationen: hochwertiger Aquarell/Gouache-Stil | MVP | Kernästhetik — kein Stockfoto, kein Cartoon |
+| Vollständiger regionaler Bird-Dex (~550 DE-Arten) | MVP | Silhouetten sichtbar |
+| 3 Starter-Vögel beim Onboarding | MVP | Dex öffnet sich erst nach deren Catch |
+| Artenkarte: Oberfläche (Illustration, Name, 1 Satz, Seltenheit) | MVP | |
+| Silhouette → aufgedeckt beim ersten Catch | MVP | Belohnungsmoment |
+| „Neue Art"-Hervorhebung beim Catch | MVP | Besonderes Ereignis |
+| Illustrationen Aquarell/Gouache-Stil | MVP | Kernästhetik |
+| Artenkarte: Tiefe (Gesang, Lebensraum, Zugverhalten, Fun Facts) | V1 | |
+| Filter: Familie / Lebensraum / Seltenheit / Jahreszeit | V1 | |
+| Fortschrittsanzeige „34 / 550 gecacht" | V1 | |
+| Saisonale Verfügbarkeit pro Art | V1 | |
+| Catch-Verlauf pro Art | V1 | |
 
 ## Karte
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Community-Karte mit allen öffentlichen Catches | MVP | Pins oder Cluster nach Art |
-| Nach Art filtern | MVP | "Zeig mir alle Eisvogel-Sichtungen" |
-| Nach Zeit filtern (letzte 7 Tage, Monat, Jahr) | V1 | |
-| Heatmap-Ansicht | V1 | Dichte der Catches pro Gebiet |
-| Eigene Catches auf Karte | MVP | |
-| Catches von Freunden auf Karte | V1 | |
+| Feature | Prio |
+|---|---|
+| Community-Karte mit öffentlichen Catches (Pins/Cluster) | MVP |
+| Eigene Catches auf Karte | MVP |
+| Filter nach Art | MVP |
+| Filter nach Zeit | V1 |
+| Catches von Freunden | V1 |
+| Heatmap-Ansicht | V1 |
 
 ## Soziales
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Nutzerprofile | MVP | Benutzername, Avatar, Catch-Anzahl, Arten-Anzahl |
-| Folgen / Freundschaftssystem | V1 | |
-| Aktivitätsfeed (Freundes-Catches) | V1 | |
-| Community-Meilensteine | Später | "Hamburg hat 100 Arten geloggt!" |
-| "Erster Catch im Gebiet"-Badges | Später | Motiviert das Erkunden neuer Gebiete |
+| Feature | Prio |
+|---|---|
+| Nutzerprofile (Username, Avatar, Stats) | MVP |
+| Folgen / Freundschaftssystem | V1 |
+| Aktivitätsfeed (Freundes-Catches) | V1 |
+| Community-Meilensteine | Später |
+| „Erster Catch im Gebiet"-Badges | Später |
 
 ## Benachrichtigungen
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Seltener Vogel in der Nähe | V1 | "Eisvogel wurde 500m von dir gesehen" |
-| Freundes-Catch-Benachrichtigung | V1 | |
-| Wöchentliche Zusammenfassung | V1 | |
-| Saisonale Zugvogelwarnungen | Später | |
+| Feature | Prio |
+|---|---|
+| Seltener Vogel in der Nähe | V1 |
+| Freundes-Catch | V1 |
+| Wöchentliche Zusammenfassung | V1 |
+| Saisonale Zugvogelwarnungen | Später |
 
 ## Gamification
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| XP / Level-System | V1 | Einfach, nicht kompetitiv |
-| Badges / Erfolge | V1 | "Erster Catch", "10 Arten", "Im Regen gecacht" etc. |
-| Catch-Streak | V1 | Wöchentlich, nicht täglich (nicht zu fordernd) |
-| Kollaborative Stadtziele | Später | Keine persönlichen Rankings |
+| Feature | Prio |
+|---|---|
+| XP / Level-System (einfach, nicht kompetitiv) | V1 |
+| Badges / Erfolge | V1 |
+| Catch-Streak (wöchentlich, nicht täglich) | V1 |
+| Kollaborative Stadtziele | Später |
 
 ## Onboarding
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Reibungsloser Einstieg | MVP | Social Login (Apple, Google) |
-| 3 Starter-Vögel Auswahl / Präsentation | MVP | Lokal, häufig, cachenswert — macht den Dex sofort greifbar |
-| Tutorial für ersten Catch | MVP | Mia durch ihren ersten Catch führen |
-| Standorterlaubnis mit klarem Mehrwert | MVP | "Wir zeigen dir Vögel in der Nähe" |
-| Benachrichtigungserlaubnis nach erstem Catch | MVP | Nicht vorab abfragen |
+| Feature | Prio |
+|---|---|
+| Social Login (Apple, Google) | MVP |
+| 3 Starter-Vögel Auswahl / Präsentation | MVP |
+| Tutorial erster Catch | MVP |
+| Standorterlaubnis mit klarem Mehrwert | MVP |
+| Benachrichtigungserlaubnis nach erstem Catch | MVP |
 
 ## Ästhetik & Haptik
-
-| Feature | Priorität | Anmerkungen |
-|---|---|---|
-| Vogel-Illustrationen (Aquarell/Gouache-Stil) | MVP | Kernidentität — für alle Artkarten, kein Stockfoto |
-| Haptisches Feedback beim Catch | MVP | Vibration + Sound = das Moment fühlt sich physisch an |
-| Catch-Animation ("Aufdecken" der Artenkarte) | MVP | Wie eine Sammelkarte die sich umdreht |
-| Seitenübergangs-Animationen | V1 | Weich, natürlich — kein hartes Schneiden |
-| Sound-Design (UI-Töne) | V1 | Subtile Vogelgeräusche als UI-Feedback |
-| Splash/Ladebildschirm mit Illustration | MVP | Erster Eindruck zählt |
+| Feature | Prio |
+|---|---|
+| Vogel-Illustrationen Aquarell/Gouache | MVP |
+| Haptisches Feedback beim Catch | MVP |
+| Catch-Animation (Artenkarte „aufdecken" wie Sammelkarte) | MVP |
+| Splash-Screen mit Illustration | MVP |
+| Seitenübergangs-Animationen | V1 |
+| Sound-Design (subtile Vogelgeräusche als UI-Feedback) | V1 |
