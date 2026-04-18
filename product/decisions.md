@@ -6,15 +6,14 @@
 - **Wöchentlicher Streak** (kein täglicher) — Vogelbeobachtung ist Freizeit.
 - **Der Catch** — User erfasst eine (Hör-)Begegnung mit einem Vogel, der wichtigste Moment
 - **Kein Spam** — schon gecatchte Vögel werden nicht erneut aktiv gepusht
-- **3-Starter: weich** — 1 Catch reicht um Dex zu öffnen, 3 Starter sind Empfehlung.
 - **Cold Start akzeptiert** — leere Karte ist Beta-Narrative "neue Karte bepflanzen".
-- **Folgen und Freundschaften** — man kann beliebigen Usern folgen, bei gegenseitigen Folgen ist es eine Freundschaft.
+- **Karte ist der Social Feed (MVP)** — kein eigener Feed-Tab, keine Profile, kein Follow-System in V0.1. Ein Pin-Tap zeigt Art + Username — das reicht für das Community-Gefühl.
 - **Map ist Default-Tab**: App-Start zeigt sofort Community-Activity (Karte mit Catches) — erzeugt FOMO, Erkundungsdrang, motiviert rausgehen.
 - **Catch-Geste: Pokéball-Throw-Mechanik**: Vorschlag-Card wird per Swipe nach oben geworfen (nicht "Confirm"-Button). Der Wurf-Moment schafft Commitment, Magie und Spielgefühl — zentral für Mias Aha-Erlebnis.
 - **Mikrofon als primäre CTA im Catch-Tab**: Shazam-Metapher ist kulturell bekannt (alle Generationen können damit umgehen), senkt mentale Hürde für Casual User.
 - **Bird-Dex zeigt Gesamtzahl aller DACH-Arten**: Pokédex-Effekt — "34 / 312" schafft Progression-Gefühl und Gier nach mehr. Gesamtzahl ist fix, nicht personalisiert.
-- **Species-Detail: "Auf Karte zeigen"-Button (gefiltert)**: Nahtlose Navigation zwischen Dex-Exploration und Map-Realität — Nutzer kann sofort sehen, wo die gefundene Art wahrscheinlich zu sehen ist.
-- **Phase 2 (kein V1-Scope):** Hintergrundmodus (iOS zu komplex) | Custom-Illustrationen | On-Device TFLite
+- **Species-Detail: "Auf Karte zeigen"-Button (gefiltert)**: Nahtlose Navigation zwischen Dex-Exploration und Map-Realität — Nutzer kann sofort sehen, wo die gefundene Art bereits gecatcht wurde
+- **Phase 2 (kein V1-Scope):** Hintergrundmodus (iOS zu komplex) | Custom-Illustrationen | On-Device TFLite (Offline-Modus)
 
 ## Tech-Stack
 - **Mobile:** Expo (React Native) + TypeScript
@@ -24,6 +23,7 @@
 ## Ton-ID
 - **BirdNET-Analyzer auf VPS** (Hetzner CX22, ~4€/Monat) — App schickt 3s-Chunks per HTTP, Server antwortet mit JSON.
 - BirdNET-Output: `"Cyanistes caeruleus_Eurasian Blue Tit"` → split `_` → `scientific_name`-Lookup.
+- **Konfidenz-Threshold:** BirdNET-Score von 0.7 als Startwert => Catch vorschlagen
 - On-Device TFLite: Phase 2 (erfordert native Swift/Kotlin Audio-Bridge).
 
 ## Vogel-Datenbank

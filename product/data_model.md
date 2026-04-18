@@ -10,20 +10,9 @@ Not SQL yet — entities, attributes, relationships.
 
 **Catch**: id, user_id, bird_id, caught_at, location (PostGIS Point), method (naked_eye/binoculars/heard_only/photo/sound_id), note?, photo_url?, is_first_for_user
 
-**Friendship**: id, requester_id, addressee_id, status (pending/accepted/blocked), created_at
-
-**Badge**: id, key (slug), name, description, icon_url, trigger_condition
-
-**UserBadge**: id, user_id, badge_id, earned_at
-
-**Notification**: id, user_id, type (rare_bird_nearby/friend_catch/new_follower/weekly_recap/milestone), payload (JSON), read_at?, created_at
-
 ## Relationships
 ```
 User ──< Catch >── Bird        (many-to-many through Catch)
-User ──< Friendship >── User   (self-referential)
-User ──< UserBadge >── Badge   (many-to-many)
-User ──< Notification          (one-to-many)
 ```
 
 ## Key Queries
@@ -38,5 +27,3 @@ User ──< Notification          (one-to-many)
 - Catches: PostGIS geography type für Spatial Queries
 - Bird: seeded via `seed_birds.ts` (UPSERT) — nie manuell im Dashboard
 - `is_local = true` für ~300 DACH-Arten (Dex + Suche). BirdNET erkennt trotzdem alle Arten.
-- Rarity region-dependent → BirdRegionRarity join table wenn nötig
-- Notifications via DB triggers / edge functions, nicht app-seitig
