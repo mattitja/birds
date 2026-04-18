@@ -40,14 +40,8 @@ Navigation: **Untere Tab-Leiste** mit 4 Tabs (außer während Ton/Foto-ID — Vo
 - **Freundesprofil** — öffentliche Sammlung + jüngste Catches
 - **Einstellungen** — Benachrichtigungen, Datenschutz, Account
 
-## Hintergrundmodus (Name TBD)
-- **Start-Screen**: Ein großer „Lauschen starten"-Button — danach Handy weglegen
-- **Minimale Statusanzeige** (persistente Pill/Leiste): „Läuft — 4 Arten gehört" — bei Tap: Session-Übersicht
-- **Zwei Alert-Ebenen** (Sound + Haptik, kein Vollbild-Interrupt):
-  - Dezent: Art erstmalig in dieser Session → kurze Vibration + Ping
-  - Aufregend: Neue Art im Bird-Dex → stärkere Vibration + anderer Ton → Benachrichtigung mit „Jetzt ansehen"
-- **Session-Zusammenfassung** (nach Beenden): alle gehörten Arten, neue Catches, Zeit + Route als Mini-Karte
-- **Review-Einstieg**: Tap auf eine Art → direkt zur Artenkarte mit Gesang-Player
+## Hintergrundmodus (Phase 2 — rausgefallen aus V1)
+Kontinuierlicher Hintergrund-Listening-Mode mit Alert-System ist zu komplex für iOS V1 App Store. Geplant für Phase 2.
 
 ## Globale Screens
 | Screen | Auslöser |

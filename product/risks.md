@@ -6,44 +6,24 @@ Dinge die früh validiert oder entschieden werden müssen — bevor viel Code ge
 
 ## Kritische Risiken (Top 3 zuerst angehen)
 
-### 1. Cold Start — leere Karte killt Onboarding
+### 1. Cold Start — akzeptiert & reframed
 
-Die Community-Karte ist zentraler Value-Prop, aber funktioniert nur mit Daten. Journey 1 (Mia sieht Pin → Neugier → erster Catch) funktioniert nicht auf einer leeren Karte.
-
-**Optionen:**
-- [ ] eBird/GBIF-Daten als historische Seed-Daten einlizenzieren (machbar, lizenzrechtlich prüfen)
-- [ ] Launch auf eine einzige Stadt fokussieren und dort dichte Community aufbauen
-- [ ] Community-Karte erst nach kritischer Masse einführen — MVP ohne Karte?
-- [ ] Karte zeigt primär eigene Catches bis Freunde vorhanden → sozialer Druck als Sekundär-Wachstum
-
-**Entscheidung ausstehend.**
+**Entscheidung (V1):** Leere Karte ist kein Risiko, sondern Feature-Narrative. Neue Nutzer „pflanzen eine neue Karte". Erster Catch wird zur Community-Highlight.  
+→ Karte zeigt zuerst nur eigene Catches + Freunde-Catches, später Community. Keine eBird-Seed-Daten nötig. Beta-Mentality: „Wir bauen das gemeinsam auf."
 
 ---
 
-### 2. Illustrationen — kritischer Pfad, massiv unterschätzt
+### 2. Illustrationen — rausgefallen, nachgereicht später
 
-Hochwertige Aquarell/Gouache-Illustrationen für 550 Arten sind das Fundament der Ästhetik-Differenzierung. Ohne das wird die App zu einer weiteren generischen Natur-App.
-
-**Optionen:**
-- [ ] Professioneller Vogel-Illustrator: konsistent, teuer, langsam (Wochen bis Monate)
-- [ ] KI-generiert (Midjourney o.ä.): schnell, günstig — Konsistenz über 550 Arten schwer zu halten
-- [ ] Hybrider Ansatz: KI-Basis + manuelles Nachbearbeiten für die wichtigsten ~50 Arten zuerst
-- [ ] Lizenzierte Bibliothek: prüfen ob Vogel-Illustrations-Bibliotheken mit App-Lizenz existieren
-
-**Muss sehr früh entschieden werden** — nicht als Detailfrage, als kritischer Pfad. MVP braucht mindestens die 50 häufigsten Arten in finaler Qualität.
+**Entscheidung (V1):** MVP ohne Custom-Illustrationen. Stattdessen quelloffene Bilder (Wikimedia Commons, ggf. Pixabay/Unsplash für Top-50). Rechtssicher, zeitnah, realistisch.  
+→ Ästhetik-Differenzierung durch Haptik, Animationen, Layout — nicht durch Illustrationen. Aquarell-Art als Phase 2 wenn Nutzer-Traction das rechtfertigt.
 
 ---
 
-### 3. Hintergrundmodus iOS — technisches Risiko
+### 3. Hintergrundmodus iOS — rausgefallen aus V1
 
-Kontinuierliche Mikrofon-Analyse im Hintergrund ist auf iOS keine Selbstverständlichkeit:
-- `background audio` Berechtigung ist für Musik-Apps gedacht — Apple reviewt streng
-- Permanentes Mikrofon + GPS + CPU ≈ 20–30% Akku pro Stunde (2h Wanderung = halber Akku)
-- Privacy-Flag im App-Review möglich
-- Bekannter Hack (stille Audio-Session im Hintergrund) funktioniert, kann aber abgelehnt werden
-
-**Sofortmaßnahme:** Als isolierten Prototyp testen bevor V1 darauf aufgebaut wird.  
-**Fallback:** Hintergrundmodus nur als "kurzes aktives Fenster" (z.B. 60s alle paar Minuten) statt dauerhaft.
+**Entscheidung (V1):** Kontinuierlicher Hintergrundmodus zu komplex für iOS App Store (Compliance + Akku). 
+→ V1 nur aktiver Modus (Handy in Hand). Hintergrundmodus als Phase 2, wenn iOS-Strategie besser verstanden.
 
 ---
 
@@ -85,9 +65,11 @@ Das Produkt ist vollständig online-abhängig (BirdNET API, Supabase, Mapbox Til
 - [ ] Datenschutz-Kommunikation: Nutzer müssen verstehen was gespeichert wird
 
 ### Vogel-Datenbank Aufbau
-- [ ] eBird-Taxonomie (offen verfügbar) als Basis für Artenliste
-- [ ] xeno-canto für Gesänge (Creative Commons — Lizenz prüfen)
-- [ ] Wer befüllt Beschreibungen, Fun Facts, Lebensraum-Infos für 550 Arten? (Content-Aufwand)
+- [x] eBird-Taxonomie als Basis — entschieden (→ decisions.md)
+- [x] species_code als PK, scientific_name als BirdNET-Anker — entschieden
+- [ ] xeno-canto für Gesänge: Creative Commons, aber Lizenz-Varianten prüfen (CC-BY vs. CC-BY-NC)
+- [ ] Content-Aufwand: Beschreibungen, Fun Facts, Lebensraum für ~300 DACH-Arten — wer/wie/womit? Wikipedia-API als Ausgangspunkt oder manuell kuratiert?
+- [ ] Vogel-Bilder: manuell kuratiert oder automatisiert via Wikipedia/Flickr-API im Seed-Script?
 
 ### Geografischer Fokus
 - [ ] Deutschland gesamt vs. nur Hamburg/Berlin für MVP?

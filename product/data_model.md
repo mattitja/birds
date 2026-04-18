@@ -6,7 +6,7 @@ Not SQL yet — entities, attributes, relationships.
 
 **User**: id, username, avatar_url, created_at, home_city, xp, level (derived)
 
-**Bird**: id, common_name (DE/EN), scientific_name, family, description, photo_url, audio_sample_url, typical_regions[], typical_months[], rarity_score (common/uncommon/rare/very_rare), fun_facts[]
+**Bird**: species_code (PK, eBird code, z.B. "eurblu"), scientific_name (UNIQUE — BirdNET-Match-Anker), name_de, name_en, family_de, family_en, description_de?, fun_facts_de[]?, photo_url?, photo_credit?, audio_sample_url?, typical_months[], rarity_score (common/uncommon/rare/very_rare), is_local (Boolean — DACH-Filter für MVP)
 
 **Catch**: id, user_id, bird_id, caught_at, location (PostGIS Point), method (naked_eye/binoculars/heard_only/photo/sound_id), note?, photo_url?, visibility (public/friends/private), is_first_for_user
 
@@ -36,6 +36,9 @@ User ──< Notification          (one-to-many)
 
 ## DB Notes
 - Catches need PostGIS geography type for spatial queries
-- Bird table seeded from eBird taxonomy + xeno-canto
+- Bird table seeded via `seed_birds.ts` Skript (UPSERT) — nie manuell im Dashboard anfassen
+- BirdNET-Output-Format: `"Cyanistes caeruleus_Eurasian Blue Tit"` → split am `_` → `scientific_name` ist der DB-Lookup-Key
+- eBird species_code als PK: stabiler als laufende ID, bekannt in xeno-canto + anderen APIs; wissenschaftlicher Name kann sich bei taxonomischen Updates ändern
 - Rarity is region-dependent → may need BirdRegionRarity join table later
+- `is_local = true` für ~250–300 DACH-Arten: nur diese in Suchvorschlägen + Dex. BirdNET erkennt trotzdem alle Arten (entflohener Papagei etc.)
 - Notifications via DB triggers or edge functions, not app logic

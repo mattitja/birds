@@ -27,7 +27,7 @@ MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht block
 | Artenkarte: Oberfläche (Illustration, Name, 1 Satz, Seltenheit) | MVP | |
 | Silhouette → aufgedeckt beim ersten Catch | MVP | Belohnungsmoment |
 | „Neue Art"-Hervorhebung beim Catch | MVP | Besonderes Ereignis |
-| Illustrationen Aquarell/Gouache-Stil | MVP | Kernästhetik |
+| Illustrationen Aquarell/Gouache-Stil | Phase 2 | Später nachgereicht — V1: quelloffene Bilder (Wikimedia) |
 | Artenkarte: Tiefe (Gesang, Lebensraum, Zugverhalten, Fun Facts) | V1 | |
 | Filter: Familie / Lebensraum / Seltenheit / Jahreszeit | V1 | |
 | Fortschrittsanzeige „34 / 550 gecacht" | V1 | |
@@ -81,17 +81,17 @@ MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht block
 ## Hintergrundmodus / Lausch-Modus (Name TBD)
 | Feature | Prio | Anmerkung |
 |---|---|---|
-| Session starten + Handy weglegen | V1 | Ein Tipp — dann Tasche |
-| Kontinuierliche Tonanalyse im Hintergrund | V1 | Benötigt Background-Audio-Permission |
-| Dezenter Ping: Art erstmalig in dieser Session gehört | V1 | Kurzer Blick reicht — kein Unterbrechen nötig |
-| Aufregender Alarm: komplett neue Art (nicht im Bird-Dex) | V1 | Das ist ein Ereignis — Handy raus |
-| Session-Zusammenfassung nach dem Spaziergang | V1 | „Heute gehört: 7 Arten, 2 neu gecacht" — Einstieg in Review |
-| Auto-Catch für Hintergrund-Erkennungen | Vielleicht | Alternativ: nur Alert, manuell bestätigen |
+| Session starten + Handy weglegen | Phase 2 | iOS App Store Compliance zu komplex — später |
+| Kontinuierliche Tonanalyse im Hintergrund | Phase 2 | Benötigt Background-Audio-Permission + Akku-Strategie |
+| Dezenter Ping: Art erstmalig in dieser Session gehört | Phase 2 | |
+| Aufregender Alarm: komplett neue Art (nicht im Bird-Dex) | Phase 2 | |
+| Session-Zusammenfassung nach dem Spaziergang | Phase 2 | |
+| Auto-Catch für Hintergrund-Erkennungen | Phase 2 | |
 
 ## Ästhetik & Haptik
 | Feature | Prio |
 |---|---|
-| Vogel-Illustrationen Aquarell/Gouache | MVP |
+| Vogel-Illustrationen Aquarell/Gouache | Phase 2 |
 | Haptisches Feedback beim Catch | MVP |
 | Catch-Animation (Artenkarte „aufdecken" wie Sammelkarte) | MVP |
 | Splash-Screen mit Illustration | MVP |

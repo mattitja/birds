@@ -40,15 +40,15 @@ Ergebnis: sieht aus wie kein anderes Naturprodukt auf dem Markt.
 
 Selbst-edukativ durch **Neugier nach dem Catch** — nicht durch Lernpflicht.
 
-## Handy in der Tasche — Philosophie
+## Handy in der Hand — Philosophie (V1)
 
-Die App soll Menschen **in** die Natur bringen, nicht aus ihr rausreißen. Intensive Nutzung hat drei natürliche Momente:
+Die App soll Menschen **in** die Natur bringen, nicht aus ihr rausreißen. V1 startet mit aktivem Modus (Handy in der Hand während Vogelbeobachtung). Später (Phase 2) kommt der Hintergrundmodus für passives Lauschen.
+
+Intensive Nutzung hat drei natürliche Momente:
 
 1. **Planung** — vor dem Spaziergang: Karte, Saison, was fehlt im Dex
-2. **Feld** — Handy in der Tasche, Hintergrundmodus läuft passiv, nur Alarme wenn etwas Neues passiert
+2. **Feld** — Handy aktiv (Ton-ID, Foto-ID, manuelle Suche)
 3. **Review** — nach dem Spaziergang: Was habe ich gefangen? Artenkarte aufschlagen, Gesang nochmal hören
-
-Alles andere ist Rauschen. Der Hintergrundmodus ist der Ausdruck dieser Philosophie: die App macht ihre Arbeit, während der Mensch spaziert.
 
 ## Was das NICHT ist
 - Kein wissenschaftliches Datenerfassungstool (≠ eBird)
