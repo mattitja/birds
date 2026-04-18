@@ -1,43 +1,77 @@
 # Screens
 
-Navigation: **Untere Tab-Leiste** mit 4 Tabs (außer während Ton/Foto-ID — Vollbild).
+Navigation: **Untere Tab-Leiste** mit 4 Tabs (außer während Catch-Aktion — Vollbild).
+
+Tab-Reihenfolge (links → rechts): **Map | Catch | Bird-Dex | Profile**. Map ist **Default-Tab** beim Start.
 
 ---
 
-## Tab 1: Karte
-- Vollbild-Karte (Mapbox), Catch-Pins / Cluster — **zeigt alle Catches der Stadt (alles ist öffentlich)**
-- Filterleiste: Art, Zeitraum, Nur-Freunde-Toggle (optionales Refinement), Heatmap-Toggle
-- Schwebender „Cachen"-Button (primärer CTA, immer sichtbar)
-- Pin antippen → Mini-Karte (Art, Nutzer, Zeit, Entfernung) → Catch-Detail
-- Nutzer-Profile einsehbar über Pins (ohne Freundschafts-Barriere)
+## Tab 1: Map (Default)
+**Ziel:** Community-Catches erkunden, Motivation zum Rausgehen schaffen, räumliche Neugier wecken.
 
-## Tab 2: Cachen (Aktion)
-1. **Methoden-Auswahl** — Gehört? Gesehen? Ton-ID oder Foto-ID?
-2. **Ton-ID** — Live-Zuhören, Wellenform-Animation, Artenergebnis
-3. **Foto-ID** — Kamera-Sucher, Aufnahme, Artenergebnis
-4. **Manuelle Suche** — Suchleiste, Artenliste
-5. **Bestätigungsscreen** — Art bestätigt, Methode, optionale Notiz/Foto, Standortvorschau
-6. **Erfolgsscreen** — Animation + Belohnung + „Teilen"-Option
+- **Vollbild-Karte (Mapbox)**, centered auf Nutzer-Standort (Stadt/Umkreis)
+- **Alle Community-Catches** als Pins/Cluster sichtbar — kein Follower-Gate, alles öffentlich
+- **Filterleiste** (oben): Art, Zeitraum, Nur-Freunde-Toggle, Heatmap-Toggle
+- **Keine "Catchen"-Button auf dieser Seite** — Catchen erfolgt über eigenen Tab (Tab 2)
+- **Pin antippen** → Mini-Card (Art, Nutzer, Zeit) → Tap auf Card → Catch-Detail oder Nutzer-Profil
+- **Design-Intent:** "Da ist ein Eisvogel 300m von hier" → motiviert, dort hinzulaufen und selbst zu suchen
 
-## Tab 3: Bird-Dex
-- Raster aller regionalen Arten: gecacht (Illustration + Name) / nicht gecacht (Silhouette + ?)
-- Fortschrittsbalken: „34 / 550 Arten gecacht"
-- Filter: Familie, Lebensraum, Seltenheit, Jahreszeit, „Noch nicht gecacht"
+## Tab 2: Catchen (Catch-Aktion)
+**Ziel:** Intuitives, spielerisches Vogel-Identifizieren — wie Shazam, aber mit Pokéball-Wurfmechanik.
 
-**Arten-Detailscreen:**
-- Großes Bild (Wikimedia-Foto, V1)
-- Name (DE + wissenschaftlich), 1-Satz-Beschreibung, Seltenheit, Jahreszeit
-- Gesang-Player
-- Ausklappbar: Lebensraum, Nahrung, Zugverhalten, Verwechslungsarten, Fun Facts
-- Meine Catches (wann/wo + Mini-Karte)
-- Community: Catch-Anzahl, Hotspot-Karte
-- „Jetzt cachen"-Button
+1. **Hauptscreen — Mikrofon-Geste**
+   - **Großes Mikrofon-Icon** (visuell zentral, Shazam-Ästhetik, hochauflösend)
+   - Tap → Live-Tonaufnahme + Wellenform-Visualisierung
+   - BirdNET-Erkennung läuft im Hintergrund
+
+2. **Erkannter Vogel — Vorschlag-Card**
+   - Card schiebt sich von oben ins Bild (oder fade-in)
+   - Zeigt: Vogel-Illustration, Name, Confidence-Prozentsatz (z.B. "Rotkehlchen 87%")
+
+3. **Catch-Geste — Pokéball-Throw**
+   - Nutzer **swipet / dragged die Card runter in seinen Bird-Dex** -> fangen, speichern
+   - **Haptisches Feedback** beim Loslassen
+   - → nahtlos in **Erfolgsscreen** übergehen
+   
+4. **Alternativ: Methoden-Menü** (klein, oben oder unten)
+   - "Gehört" (Sound ID) / "Gesehen" (Foto-ID) / "Manuell suchen"
+   - Für Nutzer, die anders identifizieren wollen
+
+5. **Erfolgsscreen** — Fullscreen, wie in Tab 3 beschrieben
+6. 
+6. - Pin ploppt auf der Karte auf, Pin ist so markiert, das klar ist, dass es ein eigener Catch ist
+
+6. **Fallback — Manuelle Suche** 
+   - Suchleiste, gefilterte Artenliste nach Eingabe
+
+## Tab 3: Bird-Dex (Sammlung)
+**Ziel:** Pokédex-Effekt — Progression sichtbar, gefangene + ungefangene Arten in einem Blick.
+
+### Hauptscreen — Art-Raster
+- **Grid aller regionalen Arten** (DACH)
+- **Gecatchte Arten:** Vogelillustrationen + Name (farbig, hochauflösend)
+- **Ungecatchte Arten:** Silhouette + "?" (grau, andeutungsvoll — keine volle Enthüllung, aber Vogelname steht da)
+- **Fortschrittsbalken oben:** "34 / **312 Arten in DACH gecatcht**" 
+  - Gesamtzahl = alle Species mit `is_local = true` aus DB (konstant, motivierend)
+- **Filter-Bar:** Familie, Lebensraum, Seltenheit, Jahreszeit, "Noch nicht gecatcht"
+- **Tap auf Art** → Art-Detailscreen
+
+### Arten-Detailscreen
+- **Großes Bild** (Wikimedia-Foto, V1) — ungecatchte Arten zeigen trotzdem Fotos
+- **Name:** DE + wissenschaftlich
+- **1-Satz-Beschreibung**, Seltenheit, Jahreszeit
+- **Gesang-Player** — Song abspielen
+- **Ausklappbar:** Lebensraum, Nahrung, Zugverhalten, Verwechslungsarten, Fun Facts
+- **Meine Catches** — wann/wo + Mini-Karte (wenn schon gecatcht)
+- **Community:** Catch-Anzahl + Hotspot-Karte
+- **Buttons oben/unten:**
+  - **"Auf Karte zeigen"** → öffnet Tab 1 (Map), **gefiltert nach dieser Art** (MVP-Feature)
+  - **"Jetzt catchen"** → öffnet Tab 2 (Catch), pre-filled mit dieser Art (optional)
 
 ## Tab 4: Profil & Soziales
-- **Mein Profil** — Avatar, Username, Level/XP, Badges, Stats
-- **Meine Badges** — verdient + gesperrt
+- **Mein Profil** — Avatar, Username, Stats
 - **Aktivitätsfeed** — Freundes-Catches chronologisch
-- **Freundesliste** — mit jüngster Aktivität
+- **Folge ich** — mit jüngster Aktivität
 - **Freundesprofil** — öffentliche Sammlung + jüngste Catches
 - **Einstellungen** — Benachrichtigungen, Datenschutz, Account
 

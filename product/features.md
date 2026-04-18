@@ -3,49 +3,51 @@
 MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht blockierend
 
 ## Vogelbestimmung
-| Feature | Prio |
-|---|---|
-| Manuelle Suche nach Name | MVP |
-| Artenliste (Region, Jahreszeit) | MVP |
-| Tonbestimmung live (BirdNET Server) | V1 |
-| Fotobestimmung | V1 |
+| Feature                                                  | Prio |
+|----------------------------------------------------------|------|
+| Manuelle Suche nach Name                                 | MVP  |
+| Artenliste (Region, Jahreszeit)                          | MVP  |
+| Tonbestimmung live (BirdNET Server) -> Catch vorschlagen | MVP  |
 
-## Cachen
+## Catchen
 | Feature | Prio |
 |---|---|
 | Catch loggen (Art + Standort + Methode) | MVP |
 | Catch-Animation + Belohnung | MVP |
-| Notiz / Foto zum Catch | V1 |
+| **Haptischer Throw: Vorschlag-Card per Swipe nach oben → Catch-Moment** | MVP |
 | Catch bearbeiten / löschen | V1 |
 
 ## Bird-Dex
 | Feature | Prio |
 |---|---|
-| DACH-Dex (~300 Arten), nicht-gecachte als Silhouette | MVP |
+| DACH-Dex (~312 Arten), nicht-gecatchte als Silhouette | MVP |
+| **Fortschrittsbalken mit Gesamtzahl: "34 / 312 Arten gecatcht"** | MVP |
 | 3 Starter-Vögel beim Onboarding | MVP |
 | Artenkarte: Name, Bild, 1 Satz, Seltenheit | MVP |
 | Silhouette → aufgedeckt beim ersten Catch | MVP |
+| **Artenkarte: "Auf Karte zeigen"-Button (gefiltert nach dieser Art)** | MVP |
 | Artenkarte: Gesang, Lebensraum, Zugverhalten, Fun Facts | V1 |
 | Filter: Familie / Lebensraum / Seltenheit / Jahreszeit | V1 |
-| Fortschrittsanzeige + Saisonverfügbarkeit | V1 |
+| Saisonverfügbarkeit | V1 |
 
-## Karte
-| Feature | Prio |
-|---|---|
-| Alle Catches der Stadt (Pins/Cluster) — kein Freunde-Gate | MVP |
-| Filter nach Art | MVP |
-| Nur-Freunde-Toggle (optional) + Filter nach Zeit | V1 |
-| Nutzerprofile via Pins | V1 |
-| Heatmap | V1 |
+## Karte (Map-Tab, Default)
+| Feature                                                    | Prio |
+|------------------------------------------------------------|---|
+| **Map als Default-Tab beim App-Start** | MVP |
+| Alle Catches der Stadt (Pins/Cluster) — kein Follower-Gate | MVP |
+| Filter nach Art                                            | MVP |
+| Nur-Freunde-Toggle (optional) + Filter nach Zeit           | V1 |
+| Nutzerprofile via Pins                                     | V1 |
+| Heatmap                                                    | V1 |
 
 ## Soziales
-| Feature | Prio |
-|---|---|
-| Öffentliche Nutzerprofile (Username, Avatar, Stats, Catches) | MVP |
-| Aktivitätsfeed (alle öffentlichen Catches) | MVP |
-| Folgen / Freundschaftssystem | V1 |
-| Aktivitätsfeed Nur-Freunde-Filter | V1 |
-| Community-Meilensteine | Später |
+| Feature                                                      | Prio   |
+|--------------------------------------------------------------|--------|
+| Öffentliche Nutzerprofile (Username, Avatar, Stats, Catches) | MVP    |
+| Aktivitätsfeed (alle öffentlichen Catches)                   | MVP    |
+| Folgen-System                                                | MVP    |
+| Aktivitätsfeed Nur-Follower-Filter                           | V1     |
+| Community-Meilensteine                                       | Später |
 
 ## Benachrichtigungen
 | Feature | Prio |

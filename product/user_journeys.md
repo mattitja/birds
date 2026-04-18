@@ -6,24 +6,27 @@
 1. App heruntergeladen (Instagram / Freundin gezeigt)
 2. Splash → „Weiter mit Apple" (ein Tipp)
 3. Standorterlaubnis: „Um dir Vögel in der Nähe zu zeigen"
-4. 3-Screen-Intro (überspringbar): Cache / Sammlung / Karte
-5. Karten-Screen — sieht **alle Catches der Stadt** (jeder kann alles sehen)
+4. 3-Screen-Intro (überspringbar): Catch / Sammlung / Karte
+5. **Karten-Screen als Default-Tab** — sieht **alle Catches der Stadt auf Mapbox** (jeder kann alles sehen)
 6. Tippt Pin: „Rotkehlchen — von Ben (Nachbar?), 200m, gestern" → Neugier
-7. Mikrofon-Button → Ton-ID → „Rotkehlchen erkannt!"
-8. CACHEN → Catch-Animation → „Erstes Rotkehlchen gecacht!"
-9. Artenkarte aufgedeckt, zu Sammlung hinzugefügt
-10. Benachrichtigungserlaubnis: „Werde benachrichtigt bei seltenen Vögeln in deiner Nähe" → Erlauben
-11. Zurück zur Karte — eigener Pin sichtbar **für die ganze Stadt** (alle Catches sind öffentlich)
+7. **Wechselt zu Catch-Tab** → sieht **großes Mikrofon-Icon** (Shazam-Ästhetik)
+8. Tippt Mikrofon → Live-Tonaufnahme + Wellenform-Visualisierung
+9. **Vorschlag-Card schiebt von unten ein** → „Rotkehlchen 87%"
+10. **Swipet die Card nach oben** (Pokéball-Throw-Geste) → haptisches Feedback
+11. → nahtlos **Catch-Animation**: Fullscreen, Rotkehlchen-Illustration, Konfetti, Vogelgeräusch, „Erstes Rotkehlchen gecatcht!"
+12. Artenkarte aufgedeckt, zu Sammlung (Bird-Dex) hinzugefügt
+13. Benachrichtigungserlaubnis: „Werde benachrichtigt bei seltenen Vögeln in deiner Nähe" → Erlauben
+14. Zurück zur Karte — eigener Pin sichtbar **für die ganze Stadt** (alle Catches sind öffentlich)
 
-**Erfolg:** Sie zeigt es ihrer Mitbewohnerin. "Ich habe gerade einen Eisvogel 500m weg gecacht!" → Downloads passieren.
+**Erfolg:** Sie zeigt es ihrer Mitbewohnerin. "Ich habe gerade ein Rotkehlchen gecatcht!" → Downloads passieren.
 
 ---
 
 ## J2: Wiederkehrender Nutzer (täglicher Loop)
 1. Push: „Buntspecht 400m von dir gesehen" → Karte öffnet sich mit hervorgehobenem Pin
 2. Sie geht hin — hört Trommeln → Ton-ID: „Buntspecht 94%"
-3. Cached → neue Art! Spezielle Animation + Badge „Spechtfamilie"
-4. Im Feed: Freundin Anna hat letzte Woche auch einen gecacht → Kommentar
+3. Catchted → neue Art! Spezielle Animation + Badge „Spechtfamilie"
+4. Im Feed: Freundin Anna hat letzte Woche auch einen gecatcht → Kommentar
 
 ---
 
@@ -31,7 +34,7 @@
 1. Ben sieht Eisvogel an der Alster → App → „+"
 2. Sucht „Eisvogel", Methode: „Fernglas"
 3. GPS-Standort gesetzt, Pin verschiebbar
-4. Optional: Notiz + Foto
+4. Optional: Notiz + Foto (V1)
 5. Bestätigt → auf Community-Karte sichtbar
 6. Innerhalb 1h: 3 Nutzer in der Nähe erhalten Benachrichtigung
 
@@ -47,7 +50,7 @@
 ---
 
 ## J5: Soziale Vernetzung
-1. Ben findet Mia → Freundschaftsanfrage → angenommen
+1. Ben findet Mia → Folgt ihr
 2. Feed zeigt Bens Catches
-3. Ben cached seltenen Wiedehopf → Mia bekommt Push
+3. Ben catched seltenen Wiedehopf → Mia bekommt Push
 4. Mia kommentiert, erkundet neues Gebiet
