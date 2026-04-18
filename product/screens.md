@@ -25,7 +25,7 @@ Navigation: **Untere Tab-Leiste** mit 4 Tabs (außer während Ton/Foto-ID — Vo
 - Filter: Familie, Lebensraum, Seltenheit, Jahreszeit, „Noch nicht gecacht"
 
 **Arten-Detailscreen:**
-- Große Illustration (Aquarell/Gouache)
+- Großes Bild (Wikimedia-Foto, V1)
 - Name (DE + wissenschaftlich), 1-Satz-Beschreibung, Seltenheit, Jahreszeit
 - Gesang-Player
 - Ausklappbar: Lebensraum, Nahrung, Zugverhalten, Verwechslungsarten, Fun Facts
@@ -41,9 +41,6 @@ Navigation: **Untere Tab-Leiste** mit 4 Tabs (außer während Ton/Foto-ID — Vo
 - **Freundesprofil** — öffentliche Sammlung + jüngste Catches
 - **Einstellungen** — Benachrichtigungen, Datenschutz, Account
 
-## Hintergrundmodus (Phase 2 — rausgefallen aus V1)
-Kontinuierlicher Hintergrund-Listening-Mode mit Alert-System ist zu komplex für iOS V1 App Store. Geplant für Phase 2.
-
 ## Globale Screens
 | Screen | Auslöser |
 |---|---|
@@ -54,7 +51,7 @@ Kontinuierlicher Hintergrund-Listening-Mode mit Alert-System ist zu komplex für
 | Arten-Schnellkarte (Sheet) | Art irgendwo in der App antippen |
 
 ## Ästhetik
-- **Illustrationen**: Aquarell/Gouache, warm, detailliert
+- **Bilder**: quelloffene Fotos (Wikimedia), warm — Aquarell/Gouache Phase 2
 - **Farben**: Erdtöne, Waldgrün, Himmelblau + lebendige Akzentfarbe
 - **Typografie**: Lesbar bei Sonnenlicht, ausreichend Kontrast
 - **Animationen**: Jede Interaktion hat Feedback — Catch ist der Premium-Moment

@@ -46,13 +46,6 @@
 
 ---
 
-## J5a: Hintergrundmodus (Phase 2 — rausgefallen aus V1)
-**Ziel (später):** Natur genießen, Handy in der Tasche — trotzdem keinen Catch verpassen.
-
-Kontinuierlicher Hintergrundmodus mit zwei Alert-Ebenen ist zu komplex für iOS V1. Geplant für Phase 2, wenn iOS App Store Strategie klarer ist.
-
----
-
 ## J5: Soziale Vernetzung
 1. Ben findet Mia → Freundschaftsanfrage → angenommen
 2. Feed zeigt Bens Catches

@@ -27,7 +27,7 @@ User ──< Notification          (one-to-many)
 ```
 
 ## Key Queries
-1. Public catches of species X near location Y within radius Z → heatmap, map pins
+1. Catches of species X near location Y within radius Z → heatmap, map pins
 2. All catches by user X → profile/collection
 3. Catches by friends of user X in last 7 days → activity feed
 4. Has user X caught species Y? → new species check
@@ -35,10 +35,8 @@ User ──< Notification          (one-to-many)
 6. All catches within bounding box → map viewport
 
 ## DB Notes
-- Catches need PostGIS geography type for spatial queries
-- Bird table seeded via `seed_birds.ts` Skript (UPSERT) — nie manuell im Dashboard anfassen
-- BirdNET-Output-Format: `"Cyanistes caeruleus_Eurasian Blue Tit"` → split am `_` → `scientific_name` ist der DB-Lookup-Key
-- eBird species_code als PK: stabiler als laufende ID, bekannt in xeno-canto + anderen APIs; wissenschaftlicher Name kann sich bei taxonomischen Updates ändern
-- Rarity is region-dependent → may need BirdRegionRarity join table later
-- `is_local = true` für ~250–300 DACH-Arten: nur diese in Suchvorschlägen + Dex. BirdNET erkennt trotzdem alle Arten (entflohener Papagei etc.)
-- Notifications via DB triggers or edge functions, not app logic
+- Catches: PostGIS geography type für Spatial Queries
+- Bird: seeded via `seed_birds.ts` (UPSERT) — nie manuell im Dashboard
+- `is_local = true` für ~300 DACH-Arten (Dex + Suche). BirdNET erkennt trotzdem alle Arten.
+- Rarity region-dependent → BirdRegionRarity join table wenn nötig
+- Notifications via DB triggers / edge functions, nicht app-seitig
