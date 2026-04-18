@@ -5,10 +5,11 @@ Navigation: **Untere Tab-Leiste** mit 4 Tabs (außer während Ton/Foto-ID — Vo
 ---
 
 ## Tab 1: Karte
-- Vollbild-Karte (Mapbox), Catch-Pins / Cluster
-- Filterleiste: Art, Zeitraum, Nur-Freunde-Toggle, Heatmap-Toggle
+- Vollbild-Karte (Mapbox), Catch-Pins / Cluster — **zeigt alle Catches der Stadt (alles ist öffentlich)**
+- Filterleiste: Art, Zeitraum, Nur-Freunde-Toggle (optionales Refinement), Heatmap-Toggle
 - Schwebender „Cachen"-Button (primärer CTA, immer sichtbar)
 - Pin antippen → Mini-Karte (Art, Nutzer, Zeit, Entfernung) → Catch-Detail
+- Nutzer-Profile einsehbar über Pins (ohne Freundschafts-Barriere)
 
 ## Tab 2: Cachen (Aktion)
 1. **Methoden-Auswahl** — Gehört? Gesehen? Ton-ID oder Foto-ID?

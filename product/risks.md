@@ -6,10 +6,10 @@ Dinge die früh validiert oder entschieden werden müssen — bevor viel Code ge
 
 ## Kritische Risiken (Top 3 zuerst angehen)
 
-### 1. Cold Start — akzeptiert & reframed
+### 1. Cold Start — akzeptiert & gelöst durch Community-Default
 
-**Entscheidung (V1):** Leere Karte ist kein Risiko, sondern Feature-Narrative. Neue Nutzer „pflanzen eine neue Karte". Erster Catch wird zur Community-Highlight.  
-→ Karte zeigt zuerst nur eigene Catches + Freunde-Catches, später Community. Keine eBird-Seed-Daten nötig. Beta-Mentality: „Wir bauen das gemeinsam auf."
+**Entscheidung (V1):** Leere Karte ist kein Risiko. Lösung: Alle Catches sind öffentlich (kein privat-Feature), so zeigt die Karte sofort Vögel von echten Menschen. Neuer Nutzer sieht: "hier sind Vögel — und ich bin Teil davon". Sein erster Catch wird für die ganze Stadt sichtbar. Das ist der Social-Hook: Nachbarn können deinen Catch sehen, können dir folgen.  
+→ Keine eBird-Seed-Daten nötig. Beta-Mentality: „Wir bauen das gemeinsam auf — und jeder sieht es."
 
 ---
 

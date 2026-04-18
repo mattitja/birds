@@ -7,15 +7,15 @@
 2. Splash → „Weiter mit Apple" (ein Tipp)
 3. Standorterlaubnis: „Um dir Vögel in der Nähe zu zeigen"
 4. 3-Screen-Intro (überspringbar): Cache / Sammlung / Karte
-5. Karten-Screen — sieht Pins in der Nähe
-6. Tippt Pin: „Rotkehlchen — von Ben, 200m, gestern" → Neugier
+5. Karten-Screen — sieht **alle Catches der Stadt** (jeder kann alles sehen)
+6. Tippt Pin: „Rotkehlchen — von Ben (Nachbar?), 200m, gestern" → Neugier
 7. Mikrofon-Button → Ton-ID → „Rotkehlchen erkannt!"
 8. CACHEN → Catch-Animation → „Erstes Rotkehlchen gecacht!"
 9. Artenkarte aufgedeckt, zu Sammlung hinzugefügt
-10. Benachrichtigungserlaubnis: „Werde benachrichtigt bei seltenen Vögeln" → Erlauben
-11. Zurück zur Karte — eigener Pin sichtbar
+10. Benachrichtigungserlaubnis: „Werde benachrichtigt bei seltenen Vögeln in deiner Nähe" → Erlauben
+11. Zurück zur Karte — eigener Pin sichtbar **für die ganze Stadt** (alle Catches sind öffentlich)
 
-**Erfolg:** Sie zeigt es ihrer Mitbewohnerin. Downloads passieren.
+**Erfolg:** Sie zeigt es ihrer Mitbewohnerin. "Ich habe gerade einen Eisvogel 500m weg gecacht!" → Downloads passieren.
 
 ---
 
@@ -37,11 +37,12 @@
 
 ---
 
-## J4: Karte erkunden
+## J4: Karte erkunden (Community-Discovery)
 1. Mia will einen Eisvogel sehen → Karte → Artenfilter „Eisvogel"
-2. Catches der letzten 3 Monate sichtbar — Hotspot: Alster + Ohlsdorfer Friedhof
-3. Tippt Cluster → Liste mit Datum → aktuellster vor 3 Tagen
-4. „Navigieren" → öffnet Karten-App
+2. **Alle Catches der Stadt sichtbar** — Hotspot: Alster + Ohlsdorfer Friedhof, von verschiedenen Nutzern
+3. Tippt Cluster → Liste mit Datum + Nutzer-Namen → aktuellster vor 3 Tagen (von Claudia)
+4. Claudias Profil antippen → sieht ihre bisherigen Catches → "Interessant, folge ich ihr"
+5. „Navigieren" → öffnet Karten-App
 
 ---
 

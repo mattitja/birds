@@ -8,7 +8,7 @@ Not SQL yet — entities, attributes, relationships.
 
 **Bird**: species_code (PK, eBird code, z.B. "eurblu"), scientific_name (UNIQUE — BirdNET-Match-Anker), name_de, name_en, family_de, family_en, description_de?, fun_facts_de[]?, photo_url?, photo_credit?, audio_sample_url?, typical_months[], rarity_score (common/uncommon/rare/very_rare), is_local (Boolean — DACH-Filter für MVP)
 
-**Catch**: id, user_id, bird_id, caught_at, location (PostGIS Point), method (naked_eye/binoculars/heard_only/photo/sound_id), note?, photo_url?, visibility (public/friends/private), is_first_for_user
+**Catch**: id, user_id, bird_id, caught_at, location (PostGIS Point), method (naked_eye/binoculars/heard_only/photo/sound_id), note?, photo_url?, is_first_for_user
 
 **Friendship**: id, requester_id, addressee_id, status (pending/accepted/blocked), created_at
 

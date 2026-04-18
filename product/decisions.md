@@ -5,8 +5,9 @@
 **Kollaborativ statt kompetitiv**  
 Keine Ranglisten. Hohes Missbrauchsrisiko (gefälschte Catches), schreckt Casual-User ab. Kollaborative Meilensteine statt Wettbewerb.
 
-**Catches standardmäßig öffentlich**  
-Community-Karte funktioniert nur mit Daten. Freunde/privat als Option. Datenschutz für sensible Sichtungen (Nistplätze) verfügbar.
+**Community-Karte: Alle Catches sind öffentlich (kein privat-Feature)**  
+Karte zeigt standardmäßig jeden Catch in der Stadt (von jedem Nutzer). Es gibt kein privat/öffentlich-Toggle — jeder Catch ist für alle sichtbar. Das ist absolut: keine Privacy-Einstellung pro Catch. So funktioniert das Community-Vertrauen und das Cold-Start-Problem wird gelöst.  
+→ Philosophie: Totale Transparenz. Community > Freundes-Netzwerk. Nachbarn entdecken.
 
 **Wöchentlicher Streak, kein täglicher**  
 Tägliche Streaks = Angst + Churn. Vogelbeobachtung ist Wochenend-/Freizeitaktivität.

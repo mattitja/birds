@@ -16,7 +16,7 @@ Mobile App die:
 6. **Echte Tiefe bietet** — vollständiger Bird-Dex, hunderte Arten, jahrelang beschäftigt
 
 ## Pitch
-> Vögel sind überall, aber die meisten laufen einfach vorbei. Unsere App verwandelt Vogelbeobachtung in ein kollaboratives Spiel — fang Vögel, baue deine Sammlung, kartiert gemeinsam wo der Eisvogel in Hamburg versteckt ist. Kein Fachwissen nötig.
+> Vögel sind überall. Unsere App zeigt dir: Wer in deiner Stadt hat heute einen Eisvogel gesehen? Mit welchem Nachbarn kannst du eine Route planen? Fang Vögel, baue deine Sammlung, entdecke was um dich herum fliegt. Kein Fachwissen nötig — und du brauchst nicht erst Freunde einzuladen.
 
 ## North Star
 **Erster Vogel gecacht innerhalb von 10 Minuten — und am nächsten Tag wiederkommen.**
@@ -57,5 +57,5 @@ Intensive Nutzung hat drei natürliche Momente:
 - Kein Instagram für Vögel
 - Kein Kinderbuch — echte Tiefe, zugänglich verpackt
 
-## Langfristiger Traum
-Echtzeit-Crowdsourced-Karte der Vogelaktivität in Städten: „Wo kann ich heute in Hamburg einen Eisvogel sehen?"
+## Community als Kernmerkmal
+Die Karte ist nicht "Friends-only" — es ist die **ganze Stadt**. Jeder Catch (außer privat markiert) ist für alle sichtbar. Das ist der Social-Hook: du entdeckst nicht nur Vögel, sondern auch Nachbarn. Gemeinsam lokales Wissen aufbauen, nicht hinter einem Freundes-Zaun.

@@ -17,7 +17,6 @@ MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht block
 | Catch-Bestätigungsanimation / Belohnung | MVP |
 | Optionale Notiz / Foto zum Catch | V1 |
 | Eigenen Catch bearbeiten / löschen | V1 |
-| Private Catches | Später |
 
 ## Bird-Dex
 | Feature | Prio | Anmerkung |
@@ -37,19 +36,22 @@ MVP = erste testbare Version | V1 = öffentlicher Launch | Später = nicht block
 ## Karte
 | Feature | Prio |
 |---|---|
-| Community-Karte mit öffentlichen Catches (Pins/Cluster) | MVP |
+| Karte mit allen Catches (alles ist öffentlich) — Stadt-default | MVP |
 | Eigene Catches auf Karte | MVP |
 | Filter nach Art | MVP |
 | Filter nach Zeit | V1 |
-| Catches von Freunden | V1 |
+| Nur-Freunde-Toggle (optionales Refinement) | V1 |
+| Nutzer-Profile über Pins einsehbar | V1 |
 | Heatmap-Ansicht | V1 |
 
 ## Soziales
 | Feature | Prio |
 |---|---|
-| Nutzerprofile (Username, Avatar, Stats) | MVP |
-| Folgen / Freundschaftssystem | V1 |
-| Aktivitätsfeed (Freundes-Catches) | V1 |
+| Öffentliche Nutzerprofile (Username, Avatar, Stats, Catches) — für jeden sichtbar | MVP |
+| Folgen / Interessieren-Markieren | V1 |
+| Freundschaftssystem (optional, für enge Freunde) | V1 |
+| Aktivitätsfeed (alle öffentlichen Catches, filterbar) | MVP |
+| Aktivitätsfeed (Nur-Freunde-Filter) | V1 |
 | Community-Meilensteine | Später |
 | „Erster Catch im Gebiet"-Badges | Später |
 
