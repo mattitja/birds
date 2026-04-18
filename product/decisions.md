@@ -1,65 +1,31 @@
-# Entscheidungs-Log
+# Entscheidungen
 
-## Produktentscheidungen
+## Produkt
+- **Alle Catches öffentlich** — kein privat-Feature. Totale Transparenz = Community-Fundament.
+- **Kollaborativ, nicht kompetitiv** — keine Rankings.
+- **Wöchentlicher Streak** (kein täglicher) — Vogelbeobachtung ist Freizeit.
+- **Auto-Catch: NEIN** — nur Alert, User bestätigt manuell (Datenqualität + Erlebnismoment).
+- **3-Starter: weich** — 1 Catch reicht um Dex zu öffnen, 3 Starter sind Empfehlung.
+- **Cold Start akzeptiert** — leere Karte ist Beta-Narrative "neue Karte bepflanzen".
+- **Phase 2 (kein V1-Scope):** Hintergrundmodus (iOS zu komplex) | Custom-Illustrationen | On-Device TFLite
 
-**Kollaborativ statt kompetitiv**  
-Keine Ranglisten. Hohes Missbrauchsrisiko (gefälschte Catches), schreckt Casual-User ab. Kollaborative Meilensteine statt Wettbewerb.
+## Tech-Stack
+- **Mobile:** Expo (React Native) + TypeScript
+- **Backend:** Supabase (PostGIS, Realtime, Auth, Storage)
+- **Karten:** Mapbox GL | **Styling:** NativeWind
 
-**Community-Karte: Alle Catches sind öffentlich (kein privat-Feature)**  
-Karte zeigt standardmäßig jeden Catch in der Stadt (von jedem Nutzer). Es gibt kein privat/öffentlich-Toggle — jeder Catch ist für alle sichtbar. Das ist absolut: keine Privacy-Einstellung pro Catch. So funktioniert das Community-Vertrauen und das Cold-Start-Problem wird gelöst.  
-→ Philosophie: Totale Transparenz. Community > Freundes-Netzwerk. Nachbarn entdecken.
+## Ton-ID
+- **BirdNET-Analyzer auf VPS** (Hetzner CX22, ~4€/Monat) — App schickt 3s-Chunks per HTTP, Server antwortet mit JSON.
+- BirdNET-Output: `"Cyanistes caeruleus_Eurasian Blue Tit"` → split `_` → `scientific_name`-Lookup.
+- On-Device TFLite: Phase 2 (erfordert native Swift/Kotlin Audio-Bridge).
 
-**Wöchentlicher Streak, kein täglicher**  
-Tägliche Streaks = Angst + Churn. Vogelbeobachtung ist Wochenend-/Freizeitaktivität.
+## Vogel-Datenbank
+- **Quelle:** eBird-Taxonomie CSV — alle EU-Arten laden, `is_local = true` für ~300 DACH-Arten.
+- **PK:** eBird `species_code` (z.B. `eurblu`) — stabiler als laufende ID, von xeno-canto verstanden.
+- **Match-Anker:** `scientific_name` (UNIQUE) — BirdNET-Output-Lookup.
+- **Pflege:** ausschließlich via `seed_birds.ts` (UPSERT) — nie manuell im Dashboard.
+- **Bilder:** Wikimedia Commons API im Seed-Script, `photo_credit` in DB. Phase 2: AI-Styling.
 
-**Ton-ID vor Foto-ID (V1)**  
-Ton ist der Merlin-Hook — funktioniert passiv, viele Vögel werden gehört bevor sie gesehen werden. Reibungsärmste Methode für Einsteiger.
-
----
-
-## Technische Entscheidungen
-
-**Expo (React Native)**  
-Cross-platform (iOS + Android), eingebaute Kamera/Mikrofon/Standort-APIs, TypeScript, großes Ökosystem, gute LLM-Trainingsdaten = besseres agentic Coding.  
-Kompromiss: etwas weniger Performance als nativ — akzeptabel.
-
-**Supabase als Backend**  
-PostGIS eingebaut (Karte/Heatmap), Realtime (sozialer Feed), Auth (Social Login), Storage (Fotos), Row-Level-Security (Datenschutz). Gute Doku = gutes agentic Coding-Ziel.  
-Kompromiss: Vendor-Lock-in — aktuell akzeptabel.
-
-**Mapbox statt Google Maps / Leaflet**  
-Heatmap-Layer, individuelles Styling, Clustering eingebaut, bessere Performance bei großen Datensätzen.  
-Kompromiss: kostenpflichtig über Free Tier — für Kartenqualität es wert.
-
-**Vogel-Bilder: Wikimedia Commons API für V1, optional AI-Styling später**  
-Quelle: Wikipedia/Wikimedia API (100% Abdeckung EU-Vögel, CC-lizenziert, rechtssicher). Seed-Skript zieht Bild-URL + Fotografen-Credit direkt in die DB. Für höheren Pokémon-Vibe: später optional Stable Diffusion (Replicate/Fal.ai) um Foto → einheitliche Illustration zu transformieren.
-
-**Vogel-DB: eBird/Clements Taxonomie als Quelle, eBird species_code als Primary Key**  
-Quelle der Wahrheit: eBird-Taxonomie (Cornell Lab) als CSV-Download (~10.000 Arten). Wissenschaftlicher Name als BirdNET-Match-Anker (BirdNET-Output: `"Cyanistes caeruleus_Eurasian Blue Tit"` → split → scientific_name → DB-Lookup). eBird species_code (z.B. `eurblu`) als stabiler PK — überdauert taxonomische Updates, wird von xeno-canto + anderen APIs verstanden.  
-Pflege: einziger Weg ist das `seed_birds.ts` Seed-Script (UPSERT) — kein manuelles Editieren im Dashboard.  
-Umfang: alle europäischen Arten in die DB laden (Postgres lacht über 10.000 Zeilen). Frontend-Filter via `is_local`-Flag für ~250–300 DACH-Arten.
-
-**Sprache: Deutschsprachiger Raum zuerst, Mehrsprachigkeit strukturell vorbereitet**  
-MVP startet auf Deutsch (DE/AT/CH). Kein aktiver Aufwand für weitere Sprachen in V1.  
-Aber: alle Strings in i18n-Struktur (z.B. `i18next`), Vogelnamen in der DB mehrsprachig angelegt (DE + wissenschaftlich als Pflichtfelder, EN + weitere als optionale Spalten). Kein Hard-coded Text im Code. Übersetzungen können nachgezogen werden ohne strukturelle Änderungen.
-
-**Cold Start: Akzeptiert & Reframed als Narrative**  
-Community-Karte startet leer. Das ist kein Bug, sondern Feature-Moment: neue Nutzer "pflanzen eine neue Karte". Erste Catches werden zum Community-Highlight. eBird-Seed-Daten nicht nötig.
-
-**Illustrationen: MVP ohne Custom-Art, quelloffene Bilder stattdessen**  
-Hochwertige Vogel-Aquarelle sind nicht im V1-Scope. Stattdessen: Wikimedia Commons + ggf. Pixabay/Unsplash für die Top-50 häufigen Arten. Sauberer, rechtssicherer, rechtszeitig. Custom-Illustrationen als Phase 2, wenn es sich lohnt.
-
-**Background/Silent Mode: Phase 2 (raus aus V1)**  
-iOS App Store Compliance zu streng, zu viel technische Komplexität (kontinuierliches Mikrofon + GPS = Rejection-Risk). V1 auf aktiven Modus fokussieren. Hintergrundmodus später, wenn iOS-Strategie klarer ist.
-
-**Ton-ID: Selbst gehosteter BirdNET-Analyzer (kein On-Device TFLite für V1)**  
-On-Device TFLite wäre ideal (offline, kein Akku durch Netzwerk, kein Datenschutz-Problem), erfordert aber native Audio-Bridge (Swift/Kotlin) + BirdNET TFLite-Modell-Integration — zu hoher Aufwand für MVP.  
-Entschieden: Selbst gehosteter BirdNET-Analyzer auf VPS (z.B. Hetzner CX22, ~4€/Monat). App schickt 3s-Chunks per HTTP, Server antwortet mit JSON. On-Device als spätere Iteration (Phase 2).  
-Offline-Einschränkung bewusst akzeptiert.
-
----
-
-## Offene Fragen
-- [ ] Vogel-DB: Eigene aus eBird-Taxonomie befüllen oder API? (xeno-canto für Audio)
-- [ ] Monetarisierungsmodell? (aktuell keine Priorität)
-- [ ] Geografischer Fokus: Hamburg oder ganz Deutschland für MVP?
+## Geografie & Sprache
+- **DACH zuerst** — ~300 `is_local`-Arten im Dex. Alle EU-Arten in DB vorhanden.
+- **i18n von Anfang an** — alle UI-Strings in `i18next`, keine Hard-coded Texte. Vogelnamen in DB: DE + EN + wissenschaftlich.
